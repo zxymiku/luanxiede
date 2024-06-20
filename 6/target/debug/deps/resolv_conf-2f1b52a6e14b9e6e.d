@@ -1,0 +1,10 @@
+C:\Users\Divin\Desktop\FireflySR\target\debug\deps\libresolv_conf-2f1b52a6e14b9e6e.rmeta: C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src/lib.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\grammar.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\ip.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\config.rs
+
+C:\Users\Divin\Desktop\FireflySR\target\debug\deps\libresolv_conf-2f1b52a6e14b9e6e.rlib: C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src/lib.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\grammar.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\ip.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\config.rs
+
+C:\Users\Divin\Desktop\FireflySR\target\debug\deps\resolv_conf-2f1b52a6e14b9e6e.d: C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src/lib.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\grammar.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\ip.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\config.rs
+
+C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src/lib.rs:
+C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\grammar.rs:
+C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\ip.rs:
+C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\resolv-conf-0.7.0\src\config.rs:

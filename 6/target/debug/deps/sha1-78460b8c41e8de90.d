@@ -1,0 +1,10 @@
+C:\Users\Divin\Desktop\FireflySR\target\debug\deps\libsha1-78460b8c41e8de90.rmeta: C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\lib.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress\soft.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress\x86.rs
+
+C:\Users\Divin\Desktop\FireflySR\target\debug\deps\libsha1-78460b8c41e8de90.rlib: C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\lib.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress\soft.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress\x86.rs
+
+C:\Users\Divin\Desktop\FireflySR\target\debug\deps\sha1-78460b8c41e8de90.d: C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\lib.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress\soft.rs C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress\x86.rs
+
+C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\lib.rs:
+C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress.rs:
+C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress\soft.rs:
+C:\Users\Divin\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd\sha-1-0.10.1\src\compress\x86.rs:
