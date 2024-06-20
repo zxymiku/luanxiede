@@ -1,0 +1,1774 @@
+{
+  "GroupGUID": null,
+  "GroupName": "Elevator",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": "Config/Level/GroupGraph/F20331001/Group_F20331001_G112.json",
+  "AreaAnchorName": "LevelArea_P20331_F20331001_G112",
+  "SaveType": "Permanent",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "B1MonsterWave",
+        "Operation": "Equal",
+        "Value": 4
+      }
+    ],
+    "Operation": "And"
+  },
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": [
+    {
+      "Comment": "1层到2层",
+      "SrcState": 0,
+      "DstState": 1
+    },
+    {
+      "Comment": "1层到3层",
+      "SrcState": 0,
+      "DstState": 2
+    },
+    {
+      "Comment": "1层到4层",
+      "SrcState": 0,
+      "DstState": 3
+    },
+    {
+      "Comment": "锁在1层",
+      "SrcState": 0,
+      "DstState": 4
+    },
+    {
+      "Comment": "2层到1层",
+      "SrcState": 1,
+      "DstState": 0
+    },
+    {
+      "Comment": "2层到3层",
+      "SrcState": 1,
+      "DstState": 2
+    },
+    {
+      "Comment": "2层到4层",
+      "SrcState": 1,
+      "DstState": 3
+    },
+    {
+      "Comment": "锁在2层",
+      "SrcState": 1,
+      "DstState": 5
+    },
+    {
+      "Comment": "3层到1层",
+      "SrcState": 2,
+      "DstState": 0
+    },
+    {
+      "Comment": "3层到2层",
+      "SrcState": 2,
+      "DstState": 1
+    },
+    {
+      "Comment": "3层到4层",
+      "SrcState": 2,
+      "DstState": 3
+    },
+    {
+      "Comment": "锁在3层",
+      "SrcState": 2,
+      "DstState": 6
+    },
+    {
+      "Comment": "4层到1层",
+      "SrcState": 3,
+      "DstState": 0
+    },
+    {
+      "Comment": "4层到2层",
+      "SrcState": 3,
+      "DstState": 1
+    },
+    {
+      "Comment": "4层到3层",
+      "SrcState": 3,
+      "DstState": 2
+    },
+    {
+      "Comment": "锁在4层",
+      "SrcState": 3,
+      "DstState": 7
+    },
+    {
+      "Comment": "解锁在1层",
+      "SrcState": 4,
+      "DstState": 0
+    },
+    {
+      "Comment": "解锁在2层",
+      "SrcState": 5,
+      "DstState": 1
+    },
+    {
+      "Comment": "解锁在3层",
+      "SrcState": 6,
+      "DstState": 2
+    },
+    {
+      "Comment": "解锁在4层",
+      "SrcState": 7,
+      "DstState": 3
+    }
+  ],
+  "GroupRefreshID": 0,
+  "ValueSource": {
+    "Values": [
+      {
+        "Value": "LevelArea_P20331_F20331001_G112,4thFloorAnchor",
+        "Key": "1stFloorAnchor"
+      },
+      {
+        "Value": "LevelArea_P20331_F20331001_G112,3rdFloorAnchor",
+        "Key": "2ndFloorAnchor"
+      },
+      {
+        "Value": "LevelArea_P20331_F20331001_G112,2ndFloorAnchor",
+        "Key": "3rdFloorAnchor"
+      },
+      {
+        "Value": "LevelArea_P20331_F20331001_G112,1stFloorAnchor",
+        "Key": "4thFloorAnchor"
+      }
+    ],
+    "SharedValues": [
+      {
+        "Value": "LevelArea_P20331_F20331001_G112,4thFloorAnchor",
+        "Key": "1stFloorAnchor"
+      },
+      {
+        "Value": "LevelArea_P20331_F20331001_G112,3rdFloorAnchor",
+        "Key": "2ndFloorAnchor"
+      },
+      {
+        "Value": "LevelArea_P20331_F20331001_G112,2ndFloorAnchor",
+        "Key": "3rdFloorAnchor"
+      },
+      {
+        "Value": "LevelArea_P20331_F20331001_G112,1stFloorAnchor",
+        "Key": "4thFloorAnchor"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": [],
+  "EnableGroupAI": false,
+  "AnchorList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "1stFloorAnchor",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 371.39,
+      "PosY": -14.98,
+      "PosZ": 403.568,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "2ndFloorAnchor",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": 371.39,
+      "PosY": 31.07699,
+      "PosZ": 403.568,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "3rdFloorAnchor",
+      "RotY": 0.0,
+      "ID": 3,
+      "PosX": 371.39,
+      "PosY": 43.07699,
+      "PosZ": 403.568,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "4thFloorAnchor",
+      "RotY": 0.0,
+      "ID": 4,
+      "PosX": 371.39,
+      "PosY": 49.887,
+      "PosZ": 403.568,
+      "IsDelete": false
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 371.3900146484375,
+      "PosY": 49.919998168945313,
+      "PosZ": 403.5679931640625,
+      "IsDelete": false,
+      "Name": "Elevator",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 103135,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": [],
+        "SharedValues": []
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 369.08700561523438,
+      "PosY": -14.306989669799805,
+      "PosZ": 407.28399658203125,
+      "IsDelete": false,
+      "Name": "ElvConsole01",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 103202,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "1stFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_1F",
+            "Key": "1stFloorButtonText"
+          },
+          {
+            "Value": 0,
+            "Key": "Value1stFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "2ndFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_0F",
+            "Key": "2ndFloorButtonText"
+          },
+          {
+            "Value": 1,
+            "Key": "Value2ndFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "3rdFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_-1F",
+            "Key": "3rdFloorButtonText"
+          },
+          {
+            "Value": 2,
+            "Key": "Value3rdFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "SecretFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "SecretFloorButtonText"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "1stFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_1F",
+            "Key": "1stFloorButtonText"
+          },
+          {
+            "Value": 0,
+            "Key": "Value1stFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "2ndFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_0F",
+            "Key": "2ndFloorButtonText"
+          },
+          {
+            "Value": 1,
+            "Key": "Value2ndFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "3rdFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_-1F",
+            "Key": "3rdFloorButtonText"
+          },
+          {
+            "Value": 2,
+            "Key": "Value3rdFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "SecretFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "SecretFloorButtonText"
+          }
+        ]
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 369.08700561523438,
+      "PosY": 31.75,
+      "PosZ": 407.28399658203125,
+      "IsDelete": false,
+      "Name": "ElvConsole02",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 103202,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "1stFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_1F",
+            "Key": "1stFloorButtonText"
+          },
+          {
+            "Value": 0,
+            "Key": "Value1stFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "2ndFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_0F",
+            "Key": "2ndFloorButtonText"
+          },
+          {
+            "Value": 1,
+            "Key": "Value2ndFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "3rdFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "3rdFloorButtonText"
+          },
+          {
+            "Value": 3,
+            "Key": "Value3rdFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "SecretFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "SecretFloorButtonText"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "1stFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_1F",
+            "Key": "1stFloorButtonText"
+          },
+          {
+            "Value": 0,
+            "Key": "Value1stFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "2ndFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_0F",
+            "Key": "2ndFloorButtonText"
+          },
+          {
+            "Value": 1,
+            "Key": "Value2ndFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "3rdFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "3rdFloorButtonText"
+          },
+          {
+            "Value": 3,
+            "Key": "Value3rdFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "SecretFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "SecretFloorButtonText"
+          }
+        ]
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 369.08700561523438,
+      "PosY": 43.75,
+      "PosZ": 407.28399658203125,
+      "IsDelete": false,
+      "Name": "ElvConsole03",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 103202,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "1stFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_1F",
+            "Key": "1stFloorButtonText"
+          },
+          {
+            "Value": 0,
+            "Key": "Value1stFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "2ndFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_-1F ",
+            "Key": "2ndFloorButtonText"
+          },
+          {
+            "Value": 2,
+            "Key": "Value2ndFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "3rdFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "3rdFloorButtonText"
+          },
+          {
+            "Value": 3,
+            "Key": "Value3rdFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "SecretFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "SecretFloorButtonText"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "1stFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_1F",
+            "Key": "1stFloorButtonText"
+          },
+          {
+            "Value": 0,
+            "Key": "Value1stFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "2ndFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_-1F ",
+            "Key": "2ndFloorButtonText"
+          },
+          {
+            "Value": 2,
+            "Key": "Value2ndFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "3rdFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "3rdFloorButtonText"
+          },
+          {
+            "Value": 3,
+            "Key": "Value3rdFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "SecretFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "SecretFloorButtonText"
+          }
+        ]
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 369.08700561523438,
+      "PosY": 50.560009002685547,
+      "PosZ": 407.28399658203125,
+      "IsDelete": false,
+      "Name": "ElvConsole04",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 103202,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "1stFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_0F",
+            "Key": "1stFloorButtonText"
+          },
+          {
+            "Value": 1,
+            "Key": "Value1stFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "2ndFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_-1F ",
+            "Key": "2ndFloorButtonText"
+          },
+          {
+            "Value": 2,
+            "Key": "Value2ndFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "3rdFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "3rdFloorButtonText"
+          },
+          {
+            "Value": 3,
+            "Key": "Value3rdFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "SecretFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "SecretFloorButtonText"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "1stFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_0F",
+            "Key": "1stFloorButtonText"
+          },
+          {
+            "Value": 1,
+            "Key": "Value1stFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/TriggerProp.png",
+            "Key": "2ndFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_-1F ",
+            "Key": "2ndFloorButtonText"
+          },
+          {
+            "Value": 2,
+            "Key": "Value2ndFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "3rdFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "3rdFloorButtonText"
+          },
+          {
+            "Value": 3,
+            "Key": "Value3rdFloor"
+          },
+          {
+            "Value": "SpriteOutput/TalkIcon/WolfBroIcon.png",
+            "Key": "SecretFloorButtonIcon"
+          },
+          {
+            "Value": "MazeText_Maze_GamePlay_Resha_Station_Area03_2F",
+            "Key": "SecretFloorButtonText"
+          }
+        ]
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": 371.39999389648438,
+      "PosY": -14.305000305175781,
+      "PosZ": 406.39999389648438,
+      "IsDelete": false,
+      "Name": "Airwall01",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.5,
+        "normalized": {
+          "x": 0.6882472,
+          "y": 0.6882472,
+          "z": 0.22941573,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 2.17944956,
+        "sqrMagnitude": 4.75
+      },
+      "PropID": 102,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": 371.39999389648438,
+      "PosY": 31.75,
+      "PosZ": 406.39999389648438,
+      "IsDelete": false,
+      "Name": "Airwall02",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.5,
+        "normalized": {
+          "x": 0.6882472,
+          "y": 0.6882472,
+          "z": 0.22941573,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 2.17944956,
+        "sqrMagnitude": 4.75
+      },
+      "PropID": 102,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300008,
+      "PosX": 371.39999389648438,
+      "PosY": 43.75,
+      "PosZ": 406.39999389648438,
+      "IsDelete": false,
+      "Name": "Airwall03",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.5,
+        "normalized": {
+          "x": 0.6882472,
+          "y": 0.6882472,
+          "z": 0.22941573,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 2.17944956,
+        "sqrMagnitude": 4.75
+      },
+      "PropID": 102,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300009,
+      "PosX": 371.39999389648438,
+      "PosY": 50.560009002685547,
+      "PosZ": 406.39999389648438,
+      "IsDelete": false,
+      "Name": "Airwall04",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.5,
+        "normalized": {
+          "x": 0.6882472,
+          "y": 0.6882472,
+          "z": 0.22941573,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 2.17944956,
+        "sqrMagnitude": 4.75
+      },
+      "PropID": 102,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300010,
+      "PosX": 371.39999389648438,
+      "PosY": 50.560009002685547,
+      "PosZ": 400.6300048828125,
+      "IsDelete": false,
+      "Name": "Airwall05",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.5,
+        "normalized": {
+          "x": 0.6882472,
+          "y": 0.6882472,
+          "z": 0.22941573,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 2.17944956,
+        "sqrMagnitude": 4.75
+      },
+      "PropID": 102,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": true,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": []
+}

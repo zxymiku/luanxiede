@@ -1,0 +1,223 @@
+{
+  "GroupGUID": null,
+  "GroupName": "TakePhotos",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": "Config/Level/GroupGraph/F44305002/Group_F44305002_G18.json",
+  "AreaAnchorName": "LevelArea_P44305_F44305002_G18",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": {
+    "Values": null,
+    "SharedValues": null
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": [],
+  "EnableGroupAI": false,
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -62.09,
+      "PosY": 54.0309,
+      "PosZ": 118.48,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": -52.25,
+      "PosY": 54.0309,
+      "PosZ": 120.669,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": -60.0871,
+      "PosY": 54.30328,
+      "PosZ": 120.5865,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": [
+    {
+      "SlotList": [
+        {
+          "PlayeMode": "Loop",
+          "PointList": [
+            {
+              "PosX": 0.0,
+              "PosY": 0.0,
+              "PosZ": 0.0,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": false,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": -8.5,
+              "PosY": -0.075157,
+              "PosZ": -2.0,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": false,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            }
+          ]
+        }
+      ],
+      "CommonPointList": [],
+      "Name": "SmartObject1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": -53.05999,
+      "PosY": 54.0309,
+      "PosZ": 120.478,
+      "IsDelete": false
+    },
+    {
+      "SlotList": [
+        {
+          "PlayeMode": "Loop",
+          "PointList": [
+            {
+              "PosX": 0.0,
+              "PosY": 0.0,
+              "PosZ": 0.0,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": -6.52,
+              "PosY": 4E-06,
+              "PosZ": 4.25,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            }
+          ]
+        }
+      ],
+      "CommonPointList": [],
+      "Name": "SmartObject2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": -53.05999,
+      "PosY": 54.0309,
+      "PosZ": 110.65,
+      "IsDelete": false
+    }
+  ]
+}

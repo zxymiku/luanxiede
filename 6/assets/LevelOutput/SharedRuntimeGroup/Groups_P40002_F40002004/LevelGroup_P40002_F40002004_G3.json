@@ -1,0 +1,219 @@
+{
+  "GroupGUID": null,
+  "GroupName": "MonsterGroup1",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P40002_F40002004_G3",
+  "SaveType": "Permanent",
+  "SaveDimensionFilter": null,
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 200020707
+      }
+    ],
+    "Operation": "And",
+    "DelayToLevelReload": false
+  },
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Server",
+  "LoadOnInitial": false,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": {
+    "Values": [
+      {
+        "Value": 4.0,
+        "Key": "MazeDF_CurrentGroup"
+      }
+    ],
+    "SharedValues": [
+      {
+        "Value": 4.0,
+        "Key": "MazeDF_CurrentGroup"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [],
+  "MonsterList": [
+    {
+      "ID": 200003,
+      "PosX": -118.25199890136719,
+      "PosY": 2.7697100639343262,
+      "PosZ": -52.266990661621094,
+      "IsDelete": false,
+      "Name": "Monster3",
+      "RotY": 117.65280151367188,
+      "NPCMonsterID": 8012010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": null,
+        "OverrideVariable": false,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "EventID": 40002041,
+      "PurposeType": "Normal",
+      "FarmElementID": 0,
+      "BoardShowList": [
+        2
+      ],
+      "IsNeedFade": false,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "NearestTeleportMappingInfoID": 0,
+      "IsClientOnly": false,
+      "TagList": null,
+      "Dialog": null,
+      "DialogueTriggerRadius": 0.0,
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "InteractIconType": "ChatIcon",
+      "SpawnConfig": null,
+      "TagOperation": "Override"
+    }
+  ],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -145.66,
+      "PosY": 2.769744,
+      "PosZ": -31.84,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": -140.55,
+      "PosY": 2.769744,
+      "PosZ": -40.5,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": -140.558,
+      "PosY": 2.769744,
+      "PosZ": -40.488,
+      "IsDelete": false
+    },
+    {
+      "ID": 4,
+      "PosX": -140.54,
+      "PosY": 2.786995,
+      "PosZ": -40.499,
+      "IsDelete": false
+    },
+    {
+      "ID": 5,
+      "PosX": -140.544,
+      "PosY": 2.769744,
+      "PosZ": -40.483,
+      "IsDelete": false
+    },
+    {
+      "ID": 6,
+      "PosX": -151.3,
+      "PosY": 2.788261,
+      "PosZ": -38.96999,
+      "IsDelete": false
+    },
+    {
+      "ID": 7,
+      "PosX": -121.1,
+      "PosY": 2.769709,
+      "PosZ": -43.23,
+      "IsDelete": false
+    },
+    {
+      "ID": 8,
+      "PosX": -125.74,
+      "PosY": 2.819592,
+      "PosZ": -40.64,
+      "IsDelete": false
+    },
+    {
+      "ID": 9,
+      "PosX": -130.71,
+      "PosY": 2.819592,
+      "PosZ": -38.248,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": -60.0,
+      "PosY": 0.544997,
+      "PosZ": 47.85,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        7,
+        8,
+        9
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": -131.8258,
+      "PosY": 0.190363,
+      "PosZ": -35.20441,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": null
+}

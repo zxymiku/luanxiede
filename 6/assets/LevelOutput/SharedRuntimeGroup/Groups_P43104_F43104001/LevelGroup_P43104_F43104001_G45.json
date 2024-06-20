@@ -1,0 +1,1110 @@
+{
+  "GroupGUID": null,
+  "GroupName": "Crowd3",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P43104_F43104001_G45",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": false,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": {
+    "Values": null,
+    "SharedValues": null
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -2.79,
+      "PosY": 0.670016,
+      "PosZ": 56.47,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": -3.76,
+      "PosY": 0.670018,
+      "PosZ": 47.38,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": -14.31421,
+      "PosY": 0.671995,
+      "PosZ": 51.08597,
+      "IsDelete": false
+    },
+    {
+      "ID": 4,
+      "PosX": -4.4,
+      "PosY": 0.670014,
+      "PosZ": 59.98,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "WaypointGraph": [
+        {
+          "To": [
+            1
+          ]
+        },
+        {
+          "To": [
+            2
+          ]
+        },
+        {
+          "To": [
+            3
+          ]
+        },
+        {
+          "To": [
+            0
+          ]
+        }
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": -8.697121,
+      "PosY": 0.670014,
+      "PosZ": 60.10825,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 8.9899997711181641,
+      "PosY": 0.67001801729202271,
+      "PosZ": 59.669998168945313,
+      "IsDelete": false,
+      "Name": "NPC1",
+      "RotY": 255.64520263671875,
+      "NPCID": 11120,
+      "LevelGraph": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "UseDistrictTriggerType": false,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/NPC_Patrol/Npc_Patrol_10101009_02.json",
+        "OverrideVariable": false,
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 45,
+            "UseID": 1,
+            "Type": "RandomGraph",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "StaticNPC": false,
+      "OverrideLodTemplate": "WithoutLod",
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideArtModelOffset": false,
+      "OverrideArtModelOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "DefaultIdleStateName": null,
+      "DefaultBlendShapeConfigName": null,
+      "BoneEmotionName": null,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "OverrideTriggerSound": false,
+      "SoundRange": 0.0,
+      "NPCLodType": "Normal",
+      "PossessionConfig": null,
+      "BoardShowList": [],
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "DefaultStory": null,
+      "FirstDialogueGroupID": 0,
+      "TalkChosenType": "undefined",
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "FreeStyleAnimGraphName": null,
+      "OverrideSeriesID": 0,
+      "IsMapContent": false,
+      "MiniMapIconType": 0,
+      "BornType": "Mission",
+      "IsNeedFade": false,
+      "IsInitialHidden": false,
+      "InitialHiddenNodeList": [],
+      "Dialog": null,
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "OverrideBehaviorType": "None",
+      "OverrideBehaviorParameter": null,
+      "OverrideReplaceMaterialKey": null,
+      "ConnectWithSubMissionIDList": null,
+      "NearestTeleportMappingInfoID": 0,
+      "RaidID": 0,
+      "ActivityMapConditionIDList": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "SpawnConfig": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null
+    }
+  ],
+  "CrowdList": [
+    {
+      "MemberList": [
+        {
+          "Identity": "UpTown_Nobles",
+          "FeatureID": "UpTown_Nobles_ChildBoy",
+          "AssemNPCID": null,
+          "DefaultState": "Cough01",
+          "UniqueName": "45_1_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -2.059,
+            "y": 0.041,
+            "z": 0.596001,
+            "normalized": {
+              "x": -0.96039176,
+              "y": 0.0191238765,
+              "z": 0.277996331,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 2.14391685,
+            "sqrMagnitude": 4.59637928
+          },
+          "LocalRotationY": 23.607,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "UpTown_Nobles",
+          "FeatureID": "UpTown_Nobles_ChildGirl",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "45_1_02",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -1.381,
+            "y": 0.0,
+            "z": 0.297001,
+            "normalized": {
+              "x": -0.9776466,
+              "y": 0.0,
+              "z": 0.2102549,
+              "normalized": {
+                "x": -0.977646649,
+                "y": 0.0,
+                "z": 0.210254908,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 1.412576,
+            "sqrMagnitude": 1.99537075
+          },
+          "LocalRotationY": 23.6891,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040210,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "UpTown_Nobles",
+          "FeatureID": "UpTown_Nobles_Lady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "45_1_03",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 1.657,
+            "y": 0.0,
+            "z": 0.699001,
+            "normalized": {
+              "x": 0.9213733,
+              "y": 0.0,
+              "z": 0.388678879,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 1.79840243,
+            "sqrMagnitude": 3.23425126
+          },
+          "LocalRotationY": 344.3976,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020221,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10101009/MunicipalChatConfig_F10101009_0012.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "45_1_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "45_1_02"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 4.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -0.594333,
+        "y": 0.013667,
+        "z": 0.530668,
+        "normalized": {
+          "x": -0.7458195,
+          "y": 0.017150512,
+          "z": 0.6659273,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.796885848,
+        "sqrMagnitude": 0.635027051
+      },
+      "Name": "Crowd1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 0.37,
+      "PosY": 0.670015,
+      "PosZ": 59.45,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "DownTown_Folks",
+          "FeatureID": "DownTown_Folks_Male",
+          "AssemNPCID": null,
+          "DefaultState": "Shy01Loop",
+          "UniqueName": "45_3_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": "45_3_01",
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -2.28,
+            "y": 0.0,
+            "z": -0.950001,
+            "normalized": {
+              "x": -0.923076749,
+              "y": 0.0,
+              "z": -0.384615719,
+              "normalized": {
+                "x": -0.9230768,
+                "y": 0.0,
+                "z": -0.384615749,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 2.47000051,
+            "sqrMagnitude": 6.100902
+          },
+          "LocalRotationY": 290.7131,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010231,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "UpTown_Nobles",
+          "FeatureID": "UpTown_Nobles_Lady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "45_3_02",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 1.167,
+            "y": 0.0,
+            "z": 2.249001,
+            "normalized": {
+              "x": 0.460581928,
+              "y": 0.0,
+              "z": 0.8876171,
+              "normalized": {
+                "x": 0.460581958,
+                "y": 0.0,
+                "z": 0.8876172,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.9999999
+            },
+            "magnitude": 2.53375125,
+            "sqrMagnitude": 6.419895
+          },
+          "LocalRotationY": 355.7096,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020298,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": null,
+      "NewMunicipalChatCrowdInfos": [],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 0.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -0.5565,
+        "y": 0.0,
+        "z": 0.6495,
+        "normalized": {
+          "x": -0.650647,
+          "y": 0.0,
+          "z": 0.7593804,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.8553026,
+        "sqrMagnitude": 0.7315425
+      },
+      "Name": "Crowd3",
+      "RotY": 0.0,
+      "ID": 3,
+      "PosX": 6.69,
+      "PosY": 0.670017,
+      "PosZ": 63.15,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "DownTown_Folks",
+          "FeatureID": "DownTown_Folks_Lady",
+          "AssemNPCID": null,
+          "DefaultState": "Exciting01Loop",
+          "UniqueName": "45_6_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": "45_6_02",
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.525001,
+            "y": -5E-06,
+            "z": 0.712001,
+            "normalized": {
+              "x": 0.593469143,
+              "y": -5.652076E-06,
+              "z": 0.804856837,
+              "normalized": {
+                "x": 0.5934691,
+                "y": -5.65207574E-06,
+                "z": 0.8048567,
+                "normalized": {
+                  "x": 0.593469143,
+                  "y": -5.652076E-06,
+                  "z": 0.8048568,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.9999999
+              },
+              "magnitude": 1.00000012,
+              "sqrMagnitude": 1.00000024
+            },
+            "magnitude": 0.8846307,
+            "sqrMagnitude": 0.782571435
+          },
+          "LocalRotationY": 121.986,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020231,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "DownTown_Folks",
+          "FeatureID": "DownTown_Folks_Male",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "45_6_02",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.562001,
+            "y": -5E-06,
+            "z": -0.761999,
+            "normalized": {
+              "x": 0.593560457,
+              "y": -5.28077726E-06,
+              "z": -0.8047894,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.9468303,
+            "sqrMagnitude": 0.8964876
+          },
+          "LocalRotationY": 75.28168,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010228,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10101009/MunicipalChatConfig_F10101009_0015.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "45_6_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "45_6_02"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 4.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 0.543501,
+        "y": -5E-06,
+        "z": -0.024999,
+        "normalized": {
+          "x": 0.9989438,
+          "y": -9.189898E-06,
+          "z": -0.0459476523,
+          "normalized": {
+            "x": 0.998943865,
+            "y": -9.189899E-06,
+            "z": -0.045947656,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 0.544075668,
+        "sqrMagnitude": 0.2960183
+      },
+      "Name": "Crowd6",
+      "RotY": 270.8868,
+      "ID": 6,
+      "PosX": -14.15,
+      "PosY": 0.671996,
+      "PosZ": 65.86,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "UpTown_Nobles",
+          "FeatureID": "UpTown_Nobles_ChildBoy",
+          "AssemNPCID": null,
+          "DefaultState": "Exciting01Loop",
+          "UniqueName": "45_7_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": "45_7_02",
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -1.05,
+            "y": -1E-06,
+            "z": 1.321999,
+            "normalized": {
+              "x": -0.6219465,
+              "y": -5.923301E-07,
+              "z": 0.7830597,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 1.68824792,
+            "sqrMagnitude": 2.850181
+          },
+          "LocalRotationY": 94.30694,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040298,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "UpTown_Nobles",
+          "FeatureID": "UpTown_Nobles_ChildGirl",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "45_7_02",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -1.078,
+            "y": 0.001982,
+            "z": 0.676003,
+            "normalized": {
+              "x": -0.8472006,
+              "y": 0.00155765458,
+              "z": 0.531271,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 1.27242589,
+            "sqrMagnitude": 1.61906779
+          },
+          "LocalRotationY": 101.7807,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040298,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "UpTown_Nobles",
+          "FeatureID": "UpTown_Nobles_OldLady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "45_7_03",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.597,
+            "y": -5E-06,
+            "z": -1.227001,
+            "normalized": {
+              "x": -0.4375135,
+              "y": -3.66426684E-06,
+              "z": -0.8992118,
+              "normalized": {
+                "x": -0.43751353,
+                "y": -3.664267E-06,
+                "z": -0.8992119,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 1.36452937,
+            "sqrMagnitude": 1.86194038
+          },
+          "LocalRotationY": 85.48286,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030298,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10101009/MunicipalChatConfig_F10101009_0013.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "45_7_03"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 4.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -0.908333,
+        "y": 0.000659,
+        "z": 0.257,
+        "normalized": {
+          "x": -0.962226748,
+          "y": 0.0006981002,
+          "z": 0.272248477,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.9439906,
+        "sqrMagnitude": 0.8911182
+      },
+      "Name": "Crowd7",
+      "RotY": 0.0,
+      "ID": 7,
+      "PosX": 9.64,
+      "PosY": 0.67002,
+      "PosZ": 53.5,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "DownTown_Folks",
+          "FeatureID": "DownTown_Folks_Male",
+          "AssemNPCID": null,
+          "DefaultState": "Exciting01Loop",
+          "UniqueName": "45_9_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": "45_9_02",
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.144,
+            "y": -5E-06,
+            "z": 1.832001,
+            "normalized": {
+              "x": -0.07836088,
+              "y": -2.720864E-06,
+              "z": 0.996925056,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 1.83765161,
+            "sqrMagnitude": 3.37696362
+          },
+          "LocalRotationY": 315.3059,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010222,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "DownTown_Folks",
+          "FeatureID": "DownTown_Folks_Lady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "45_9_02",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 1.154,
+            "y": -5E-06,
+            "z": -1.712002,
+            "normalized": {
+              "x": 0.558939934,
+              "y": -2.42175E-06,
+              "z": -0.8292082,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 2.06462264,
+            "sqrMagnitude": 4.2626667
+          },
+          "LocalRotationY": 162.4299,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020216,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10101009/MunicipalChatConfig_F10101009_0014.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "45_9_01"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 4.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 0.505,
+        "y": -5E-06,
+        "z": 0.059999,
+        "normalized": {
+          "x": 0.9930159,
+          "y": -9.83184054E-06,
+          "z": 0.117980123,
+          "normalized": {
+            "x": 0.993016,
+            "y": -9.831841E-06,
+            "z": 0.117980137,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.9999999,
+          "sqrMagnitude": 0.9999998
+        },
+        "magnitude": 0.5085518,
+        "sqrMagnitude": 0.258624882
+      },
+      "Name": "Crowd9",
+      "RotY": 0.0,
+      "ID": 9,
+      "PosX": 2.84,
+      "PosY": 0.67002,
+      "PosZ": 48.47,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "DownTown_Folks",
+          "FeatureID": "DownTown_Folks_Male",
+          "AssemNPCID": null,
+          "DefaultState": "Exciting01Loop",
+          "UniqueName": "45_11_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": "45_11_02",
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.36,
+            "y": -5E-06,
+            "z": -1.57,
+            "normalized": {
+              "x": 0.22349903,
+              "y": -3.104153E-06,
+              "z": -0.9747041,
+              "normalized": {
+                "x": 0.22349906,
+                "y": -3.10415339E-06,
+                "z": -0.9747042,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 0.9999999,
+              "sqrMagnitude": 0.9999998
+            },
+            "magnitude": 1.61074531,
+            "sqrMagnitude": 2.5945003
+          },
+          "LocalRotationY": 1.457178,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010222,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "UpTown_Nobles",
+          "FeatureID": "UpTown_Nobles_Male",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "45_11_02",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.801,
+            "y": -5E-06,
+            "z": 1.512001,
+            "normalized": {
+              "x": -0.468129128,
+              "y": -2.92215418E-06,
+              "z": 0.8836601,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 1.71106637,
+            "sqrMagnitude": 2.9277482
+          },
+          "LocalRotationY": 271.2112,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010298,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": null,
+      "NewMunicipalChatCrowdInfos": null,
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 0.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -0.2205,
+        "y": -5E-06,
+        "z": -0.029,
+        "normalized": {
+          "x": -0.991461933,
+          "y": -2.24821288E-05,
+          "z": -0.130396351,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.222398862,
+        "sqrMagnitude": 0.049461253
+      },
+      "Name": "Crowd11",
+      "RotY": 0.0,
+      "ID": 11,
+      "PosX": -13.02,
+      "PosY": 0.670017,
+      "PosZ": 46.89,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "DownTown_Folks",
+          "FeatureID": "DownTown_Folks_Male",
+          "AssemNPCID": null,
+          "DefaultState": "Exciting01Loop",
+          "UniqueName": "45_5_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.182,
+            "y": -5E-06,
+            "z": -1.453999,
+            "normalized": {
+              "x": 0.124202788,
+              "y": -3.41216446E-06,
+              "z": -0.9922568,
+              "normalized": {
+                "x": 0.124202795,
+                "y": -3.41216469E-06,
+                "z": -0.9922569,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 1.4653455,
+            "sqrMagnitude": 2.1472373
+          },
+          "LocalRotationY": 44.00303,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010216,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": null,
+      "NewMunicipalChatCrowdInfos": null,
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 0.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 0.182,
+        "y": -5E-06,
+        "z": -1.453999,
+        "normalized": {
+          "x": 0.124202788,
+          "y": -3.41216446E-06,
+          "z": -0.9922568,
+          "normalized": {
+            "x": 0.124202795,
+            "y": -3.41216469E-06,
+            "z": -0.9922569,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.4653455,
+        "sqrMagnitude": 2.1472373
+      },
+      "Name": "Crowd5",
+      "RotY": 0.0,
+      "ID": 5,
+      "PosX": 7.8,
+      "PosY": 0.670024,
+      "PosZ": 39.89,
+      "IsDelete": false
+    }
+  ],
+  "PedestrianList": [],
+  "SmartObjectList": []
+}

@@ -1,0 +1,2070 @@
+{
+  "GroupGUID": null,
+  "GroupName": "Crowd",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P20331_F20331001_G105",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "AtmosphereInMain",
+        "Operation": "Equal",
+        "Value": 0
+      },
+      {
+        "SavedValueName": "AtmosphereInSide",
+        "Operation": "Equal",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": {
+    "Values": null,
+    "SharedValues": null
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": [],
+  "EnableGroupAI": false,
+  "AnchorList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": -20.78,
+      "PosY": 5.75,
+      "PosZ": 2.91,
+      "IsDelete": false
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -6.9780001640319824,
+      "PosY": 1.7044229507446289,
+      "PosZ": -30.02400016784668,
+      "IsDelete": false,
+      "Name": "Prop1",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 100,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20331/F20331001_G105/DialogueMain_F20331001_G105_P300001.json",
+        "PackList": [],
+        "EnableCondition": null,
+        "EnableDialogCamera": true
+      },
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": -347318505
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -18.808000564575195,
+      "PosY": 1.7044270038604736,
+      "PosZ": 0.21799999475479126,
+      "IsDelete": false,
+      "Name": "Prop2",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 100,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20331/F20331001_G105/DialogueMain_F20331001_G105_P300002.json",
+        "PackList": [],
+        "EnableCondition": null,
+        "EnableDialogCamera": true
+      },
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": -347318505
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 6.2360000610351563,
+      "PosY": 0.50683397054672241,
+      "PosZ": -12.211999893188477,
+      "IsDelete": false,
+      "Name": "Prop3",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 100,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": false,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20331/F20331001_G105/DialogueMain_F20331001_G105_P300003.json",
+        "PackList": [],
+        "EnableCondition": null,
+        "EnableDialogCamera": true
+      },
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": -347318505
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [
+    {
+      "MemberList": [
+        {
+          "Identity": "Pinuo_Waiter",
+          "FeatureID": "Pinuo_Waiter_RedMale",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_1_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.032,
+            "y": 0.0,
+            "z": -0.011,
+            "normalized": {
+              "x": -0.9456866,
+              "y": 0.0,
+              "z": -0.325079739,
+              "normalized": {
+                "x": -0.945686638,
+                "y": 0.0,
+                "z": -0.325079769,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 0.03383785,
+            "sqrMagnitude": 0.0011450001
+          },
+          "LocalRotationY": 48.19926,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010396,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0034.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_1_01"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -0.032,
+        "y": 0.0,
+        "z": -0.011,
+        "normalized": {
+          "x": -0.9456866,
+          "y": 0.0,
+          "z": -0.325079739,
+          "normalized": {
+            "x": -0.945686638,
+            "y": 0.0,
+            "z": -0.325079769,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 0.03383785,
+        "sqrMagnitude": 0.0011450001
+      },
+      "Name": "Crowd1",
+      "RotY": 221.5664,
+      "ID": 1,
+      "PosX": 8.759,
+      "PosY": 1.704418,
+      "PosZ": -29.153,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Pinuo_Waiter",
+          "FeatureID": "Pinuo_Waiter_RedLady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_2_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "LocalRotationY": 0.0,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020336,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0041.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_2_01"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Name": "Crowd2",
+      "RotY": 321.8285,
+      "ID": 2,
+      "PosX": 3.48,
+      "PosY": 1.704418,
+      "PosZ": -43.394,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Pinuo_Waiter",
+          "FeatureID": "Pinuo_Waiter_RedLady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_3_01",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "105_3_02",
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -2.122,
+            "y": 0.0,
+            "z": 0.624,
+            "normalized": {
+              "x": -0.9593799,
+              "y": 0.0,
+              "z": 0.282117367,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 2.2118454,
+            "sqrMagnitude": 4.89226
+          },
+          "LocalRotationY": 0.0,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020381,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Family_Work",
+          "FeatureID": "Family_Work_ChildBoy",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_3_02",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "105_3_01",
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -3.33975,
+            "y": -8E-06,
+            "z": 1.608779,
+            "normalized": {
+              "x": -0.9009225,
+              "y": -2.15805949E-06,
+              "z": 0.4339801,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 3.70703387,
+            "sqrMagnitude": 13.7421007
+          },
+          "LocalRotationY": 150.9206,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0095.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_3_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "105_3_02"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -2.730875,
+        "y": -4E-06,
+        "z": 1.11639,
+        "normalized": {
+          "x": -0.9256403,
+          "y": -1.3558149E-06,
+          "z": 0.378404558,
+          "normalized": {
+            "x": -0.925640345,
+            "y": -1.355815E-06,
+            "z": 0.3784046,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 2.95025516,
+        "sqrMagnitude": 8.704005
+      },
+      "Name": "Crowd3",
+      "RotY": 44.43829,
+      "ID": 3,
+      "PosX": 5.903,
+      "PosY": 0.499514,
+      "PosZ": -26.893,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Pinuo_Waiter",
+          "FeatureID": "Pinuo_Waiter_RedMale",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_4_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.18,
+            "y": 0.0,
+            "z": 0.531,
+            "normalized": {
+              "x": -0.3210393,
+              "y": 0.0,
+              "z": 0.9470659,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.5606791,
+            "sqrMagnitude": 0.314361036
+          },
+          "LocalRotationY": 108.5201,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010295,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Family_Normal",
+          "FeatureID": "Family_Normal_Male",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_4_02",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.645,
+            "y": 0.0,
+            "z": 0.13,
+            "normalized": {
+              "x": 0.980287254,
+              "y": 0.0,
+              "z": 0.197577283,
+              "normalized": {
+                "x": 0.9802873,
+                "y": 0.0,
+                "z": 0.1975773,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.9999999
+            },
+            "magnitude": 0.657970369,
+            "sqrMagnitude": 0.432925
+          },
+          "LocalRotationY": 0.0,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010210,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0036.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_4_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "105_4_02"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 0.2325,
+        "y": 0.0,
+        "z": 0.3305,
+        "normalized": {
+          "x": 0.5753708,
+          "y": 0.0,
+          "z": 0.8178927,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.404087245,
+        "sqrMagnitude": 0.1632865
+      },
+      "Name": "Crowd4",
+      "RotY": 0.0,
+      "ID": 4,
+      "PosX": -7.219,
+      "PosY": 1.704417,
+      "PosZ": -30.335,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Tourist_High",
+          "FeatureID": "Tourist_High_EntertainmentLady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_5_01",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "105_5_02",
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -1.855,
+            "y": 0.0,
+            "z": 1.143,
+            "normalized": {
+              "x": -0.8513588,
+              "y": 0.0,
+              "z": 0.5245839,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 2.17887,
+            "sqrMagnitude": 4.747474
+          },
+          "LocalRotationY": 223.8539,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020298,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Family_Normal",
+          "FeatureID": "Family_Normal_Lady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_5_02",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "105_5_01",
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -1.667,
+            "y": 0.0,
+            "z": -1.34,
+            "normalized": {
+              "x": -0.779406965,
+              "y": 0.0,
+              "z": -0.6265179,
+              "normalized": {
+                "x": -0.779407,
+                "y": 0.0,
+                "z": -0.626517951,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.9999999
+            },
+            "magnitude": 2.13880563,
+            "sqrMagnitude": 4.574489
+          },
+          "LocalRotationY": 307.4243,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020301,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Family_Work",
+          "FeatureID": "Family_Work_Male",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_5_03",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -4.747517,
+            "y": -2E-06,
+            "z": -0.940487,
+            "normalized": {
+              "x": -0.980937243,
+              "y": -4.13242219E-07,
+              "z": -0.194324479,
+              "normalized": {
+                "x": -0.9809373,
+                "y": -4.13242248E-07,
+                "z": -0.1943245,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.9999999
+            },
+            "magnitude": 4.83977652,
+            "sqrMagnitude": 23.4234352
+          },
+          "LocalRotationY": 68.74322,
+          "PossessionConfig": {
+            "Name": "Possession_VintageCamera_A_01",
+            "IsOverride": false,
+            "LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "LocalRotationY": 0.0,
+            "LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0,
+              "normalized": {
+                "x": 0.577350259,
+                "y": 0.577350259,
+                "z": 0.577350259,
+                "normalized": {
+                  "x": 0.5773503,
+                  "y": 0.5773503,
+                  "z": 0.5773503,
+                  "magnitude": 1.00000012,
+                  "sqrMagnitude": 1.00000024
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 1.73205078,
+              "sqrMagnitude": 3.0
+            },
+            "AttachPoint": null
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010416,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0037.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_5_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "105_5_02"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -2.756506,
+        "y": -1E-06,
+        "z": -0.379162,
+        "normalized": {
+          "x": -0.990671933,
+          "y": -3.59394079E-07,
+          "z": -0.136268586,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 2.782461,
+        "sqrMagnitude": 7.74208927
+      },
+      "Name": "Crowd5",
+      "RotY": 0.0,
+      "ID": 5,
+      "PosX": 32.28659,
+      "PosY": 1.704429,
+      "PosZ": -12.65258,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Tourist_High",
+          "FeatureID": "Tourist_High_Male",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_6_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.688,
+            "y": 0.0,
+            "z": -1.147,
+            "normalized": {
+              "x": -0.5143859,
+              "y": 0.0,
+              "z": -0.8575589,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 1.33751738,
+            "sqrMagnitude": 1.78895283
+          },
+          "LocalRotationY": 111.0772,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010298,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0038.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_6_01"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -0.688,
+        "y": 0.0,
+        "z": -1.147,
+        "normalized": {
+          "x": -0.5143859,
+          "y": 0.0,
+          "z": -0.8575589,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 1.33751738,
+        "sqrMagnitude": 1.78895283
+      },
+      "Name": "Crowd6",
+      "RotY": 0.0,
+      "ID": 6,
+      "PosX": -29.093,
+      "PosY": 1.704425,
+      "PosZ": -13.425,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Pinuo_Waiter",
+          "FeatureID": "Pinuo_Waiter_RedLady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_7_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "LocalRotationY": 0.0,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020222,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": null,
+      "NewMunicipalChatCrowdInfos": [],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 0.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Name": "Crowd7",
+      "RotY": 90.10892,
+      "ID": 7,
+      "PosX": -3.38103,
+      "PosY": 0.515,
+      "PosZ": -6.017896,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Tourist_High",
+          "FeatureID": "Tourist_High_Male",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_8_01",
+          "LookAtMode": "LookAnchor",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": "LevelArea_P20331_F20331001_G105",
+            "AnchorName": "Anchor1"
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.001562,
+            "y": 0.0,
+            "z": -0.001232,
+            "normalized": {
+              "x": 0.7851658,
+              "y": 0.0,
+              "z": -0.619285643,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.00198938884,
+            "sqrMagnitude": 3.957668E-06
+          },
+          "LocalRotationY": 358.385,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010210,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Tourist_High",
+          "FeatureID": "Tourist_High_Lady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_8_02",
+          "LookAtMode": "LookAnchor",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": "LevelArea_P20331_F20331001_G105",
+            "AnchorName": "Anchor1"
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 1.369125,
+            "y": 0.0,
+            "z": 1.302838,
+            "normalized": {
+              "x": 0.7244261,
+              "y": 0.0,
+              "z": 0.6893525,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 1.88994443,
+            "sqrMagnitude": 3.57188988
+          },
+          "LocalRotationY": 302.8678,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0039.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_8_02"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "105_8_01"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 0.685344,
+        "y": 0.0,
+        "z": 0.650803,
+        "normalized": {
+          "x": 0.725144,
+          "y": 0.0,
+          "z": 0.6885972,
+          "normalized": {
+            "x": 0.7251441,
+            "y": 0.0,
+            "z": 0.688597262,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 0.945114255,
+        "sqrMagnitude": 0.8932409
+      },
+      "Name": "Crowd8",
+      "RotY": 0.0,
+      "ID": 8,
+      "PosX": -19.42704,
+      "PosY": 1.704428,
+      "PosZ": -0.482078,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Family_Normal",
+          "FeatureID": "Family_Normal_EntertainmentLady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_9_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -1.192799,
+            "y": 0.0,
+            "z": 1.065526,
+            "normalized": {
+              "x": -0.745774031,
+              "y": 0.0,
+              "z": 0.6661991,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 1.59941077,
+            "sqrMagnitude": 2.558115
+          },
+          "LocalRotationY": 138.2294,
+          "PossessionConfig": {
+            "Name": "Possession_VintageMicrophone_A_01",
+            "IsOverride": false,
+            "LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "LocalRotationY": 0.0,
+            "LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0,
+              "normalized": {
+                "x": 0.577350259,
+                "y": 0.577350259,
+                "z": 0.577350259,
+                "normalized": {
+                  "x": 0.5773503,
+                  "y": 0.5773503,
+                  "z": 0.5773503,
+                  "magnitude": 1.00000012,
+                  "sqrMagnitude": 1.00000024
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 1.73205078,
+              "sqrMagnitude": 3.0
+            },
+            "AttachPoint": null
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020420,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Family_Work",
+          "FeatureID": "Family_Work_Male",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_9_02",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.53,
+            "y": 0.0,
+            "z": -0.61,
+            "normalized": {
+              "x": 0.6558723,
+              "y": 0.0,
+              "z": -0.7548719,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.80808413,
+            "sqrMagnitude": 0.653
+          },
+          "LocalRotationY": 321.3926,
+          "PossessionConfig": {
+            "Name": "Possession_VintageCamera_A_01",
+            "IsOverride": false,
+            "LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "LocalRotationY": 0.0,
+            "LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0,
+              "normalized": {
+                "x": 0.577350259,
+                "y": 0.577350259,
+                "z": 0.577350259,
+                "normalized": {
+                  "x": 0.5773503,
+                  "y": 0.5773503,
+                  "z": 0.5773503,
+                  "magnitude": 1.00000012,
+                  "sqrMagnitude": 1.00000024
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 1.73205078,
+              "sqrMagnitude": 3.0
+            },
+            "AttachPoint": null
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010416,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0040.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_9_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "105_9_02"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -0.3314,
+        "y": 0.0,
+        "z": 0.227763,
+        "normalized": {
+          "x": -0.8241284,
+          "y": 0.0,
+          "z": 0.566403,
+          "normalized": {
+            "x": -0.824128449,
+            "y": 0.0,
+            "z": 0.566403031,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 0.4021218,
+        "sqrMagnitude": 0.161701947
+      },
+      "Name": "Crowd9",
+      "RotY": 0.0,
+      "ID": 9,
+      "PosX": 5.71,
+      "PosY": 1.704431,
+      "PosZ": 7.64,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Tourist_High",
+          "FeatureID": "Tourist_High_Male",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_10_01",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "105_10_03",
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 1.182,
+            "y": 0.0,
+            "z": -1.287,
+            "normalized": {
+              "x": 0.676424,
+              "y": 0.0,
+              "z": -0.736512363,
+              "normalized": {
+                "x": 0.6764241,
+                "y": 0.0,
+                "z": -0.7365124,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 1.74742472,
+            "sqrMagnitude": 3.053493
+          },
+          "LocalRotationY": 275.5221,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010301,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Tourist_Low",
+          "FeatureID": "Tourist_Low_Lady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_10_02",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "105_10_01",
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.823,
+            "y": 0.0,
+            "z": -1.906,
+            "normalized": {
+              "x": 0.396417558,
+              "y": 0.0,
+              "z": -0.9180703,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 2.07609367,
+            "sqrMagnitude": 4.310165
+          },
+          "LocalRotationY": 320.6215,
+          "PossessionConfig": {
+            "Name": "Possession_MineralGlass_A_02",
+            "IsOverride": false,
+            "LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "LocalRotationY": 0.0,
+            "LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0,
+              "normalized": {
+                "x": 0.577350259,
+                "y": 0.577350259,
+                "z": 0.577350259,
+                "normalized": {
+                  "x": 0.5773503,
+                  "y": 0.5773503,
+                  "z": 0.5773503,
+                  "magnitude": 1.00000012,
+                  "sqrMagnitude": 1.00000024
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 1.73205078,
+              "sqrMagnitude": 3.0
+            },
+            "AttachPoint": null
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020364,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Tourist_Low",
+          "FeatureID": "Tourist_Low_ChildGirl",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_10_03",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "105_10_01",
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.405,
+            "y": 0.0,
+            "z": -1.076,
+            "normalized": {
+              "x": 0.352267027,
+              "y": 0.0,
+              "z": -0.935899556,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 1.149696,
+            "sqrMagnitude": 1.321801
+          },
+          "LocalRotationY": 109.2739,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040210,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0044.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_10_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "105_10_03"
+        },
+        {
+          "UniqueName": "3",
+          "CrowdUniqueName": "105_10_02"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 0.803333,
+        "y": 0.0,
+        "z": -1.423,
+        "normalized": {
+          "x": 0.491606683,
+          "y": 0.0,
+          "z": -0.870817363,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 1.634097,
+        "sqrMagnitude": 2.67027283
+      },
+      "Name": "Crowd10",
+      "RotY": 0.0,
+      "ID": 10,
+      "PosX": 5.65,
+      "PosY": 0.506834,
+      "PosZ": -10.96,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Tourist_High",
+          "FeatureID": "Tourist_High_Lady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_11_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 1.628,
+            "y": 0.0,
+            "z": 0.313,
+            "normalized": {
+              "x": 0.9820151,
+              "y": 0.0,
+              "z": 0.188802645,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 1.65781569,
+            "sqrMagnitude": 2.748353
+          },
+          "LocalRotationY": 213.4115,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020222,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Tourist_High",
+          "FeatureID": "Tourist_High_Lady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_11_02",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "105_11_01",
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.723,
+            "y": 0.0,
+            "z": -1.026,
+            "normalized": {
+              "x": 0.576026142,
+              "y": 0.0,
+              "z": -0.8174313,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 1.25515139,
+            "sqrMagnitude": 1.57540512
+          },
+          "LocalRotationY": 30.22631,
+          "PossessionConfig": {
+            "Name": "Possession_MobilePhone_A_01",
+            "IsOverride": false,
+            "LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "LocalRotationY": 0.0,
+            "LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0,
+              "normalized": {
+                "x": 0.577350259,
+                "y": 0.577350259,
+                "z": 0.577350259,
+                "normalized": {
+                  "x": 0.5773503,
+                  "y": 0.5773503,
+                  "z": 0.5773503,
+                  "magnitude": 1.00000012,
+                  "sqrMagnitude": 1.00000024
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 1.73205078,
+              "sqrMagnitude": 3.0
+            },
+            "AttachPoint": null
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020393,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0042.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_11_02"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "105_11_01"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 1.1755,
+        "y": 0.0,
+        "z": -0.3565,
+        "normalized": {
+          "x": 0.956959367,
+          "y": 0.0,
+          "z": -0.290222049,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 1.22836983,
+        "sqrMagnitude": 1.50889254
+      },
+      "Name": "Crowd11",
+      "RotY": 0.0,
+      "ID": 11,
+      "PosX": -8.152,
+      "PosY": 0.506832,
+      "PosZ": -15.371,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "Tourist_Low",
+          "FeatureID": "Tourist_Low_ChildBoy",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_12_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.996,
+            "y": 0.0,
+            "z": 0.444,
+            "normalized": {
+              "x": 0.9133572,
+              "y": 0.0,
+              "z": 0.407159239,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 1.09048247,
+            "sqrMagnitude": 1.189152
+          },
+          "LocalRotationY": 53.52149,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040328,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "Tourist_Low",
+          "FeatureID": "Tourist_Low_ChildGirl",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "105_12_02",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": {
+            "AreaName": null,
+            "AnchorName": null
+          },
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 1.479,
+            "y": 0.0,
+            "z": -0.139999,
+            "normalized": {
+              "x": 0.9955498,
+              "y": 0.0,
+              "z": -0.0942366347,
+              "normalized": {
+                "x": 0.995549858,
+                "y": 0.0,
+                "z": -0.09423664,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 1.4856112,
+            "sqrMagnitude": 2.20704055
+          },
+          "LocalRotationY": 36.12794,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040345,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20331001/MunicipalChatConfig_F20331001_0043.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "105_12_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "105_12_02"
+        }
+      ],
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": 1.2375,
+        "y": 0.0,
+        "z": 0.152001,
+        "normalized": {
+          "x": 0.992540836,
+          "y": 0.0,
+          "z": 0.121912882,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 1.24680007,
+        "sqrMagnitude": 1.55451047
+      },
+      "Name": "Crowd12",
+      "RotY": 0.0,
+      "ID": 12,
+      "PosX": -17.371,
+      "PosY": 1.704424,
+      "PosZ": -23.481,
+      "IsDelete": false
+    }
+  ],
+  "PedestrianList": [],
+  "SmartObjectList": []
+}

@@ -1,0 +1,1318 @@
+{
+  "GroupGUID": null,
+  "GroupName": "MoviegameRace",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P20321_F20321001_G23",
+  "SaveType": "Permanent",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "GameOpen",
+        "Operation": "Equal",
+        "Value": 2
+      }
+    ],
+    "Operation": "And"
+  },
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": {
+    "Values": null,
+    "SharedValues": null
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": [],
+  "EnableGroupAI": false,
+  "AnchorList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": {
+        "fov": 0.0
+      },
+      "Name": "Anchor1",
+      "RotY": 347.4,
+      "ID": 1,
+      "PosX": -25.14,
+      "PosY": 64.17,
+      "PosZ": 163.37,
+      "IsDelete": false
+    },
+    {
+      "RotX": 356.9226,
+      "RotZ": 0.313567,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": {
+        "fov": 0.0
+      },
+      "Name": "Anchor2",
+      "RotY": 323.4354,
+      "ID": 2,
+      "PosX": -23.503,
+      "PosY": 57.457,
+      "PosZ": 164.571,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": {
+        "fov": 0.0
+      },
+      "Name": "Anchor3",
+      "RotY": 167.4,
+      "ID": 3,
+      "PosX": -60.43443,
+      "PosY": 63.75684,
+      "PosZ": -145.5022,
+      "IsDelete": false
+    },
+    {
+      "RotX": 357.7743,
+      "RotZ": 359.9209,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": {
+        "fov": 0.0
+      },
+      "Name": "Anchor4",
+      "RotY": 152.5486,
+      "ID": 4,
+      "PosX": -61.98,
+      "PosY": 57.1,
+      "PosZ": -145.89,
+      "IsDelete": false
+    },
+    {
+      "RotX": 355.0369,
+      "RotZ": 0.0,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": {
+        "fov": 0.0
+      },
+      "Name": "Anchor5",
+      "RotY": 344.7735,
+      "ID": 5,
+      "PosX": -24.641,
+      "PosY": 57.407,
+      "PosZ": 164.576,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.675499,
+      "RotZ": 1E-06,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": {
+        "fov": 0.0
+      },
+      "Name": "Anchor6",
+      "RotY": 167.4,
+      "ID": 6,
+      "PosX": -60.958,
+      "PosY": 57.146,
+      "PosZ": -146.366,
+      "IsDelete": false
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -32.596450805664063,
+      "PosY": 56.181709289550781,
+      "PosZ": 196.81539916992188,
+      "IsDelete": false,
+      "Name": "Prop1",
+      "RotY": 347.39999389648438,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 217,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/MovieGame/MovieGame_InCinema.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor1",
+            "Key": "Cam"
+          },
+          {
+            "Value": "23,300002",
+            "Key": "StarterProp"
+          },
+          {
+            "Value": "Racing_Lv1",
+            "Key": "Game1_String"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv1.prefab",
+            "Key": "Game1"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv2.prefab",
+            "Key": "Game2"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Endless.prefab",
+            "Key": "GameEndless"
+          },
+          {
+            "Value": "Racing_Lv2",
+            "Key": "Game2_String"
+          },
+          {
+            "Value": "Racing_Endless",
+            "Key": "GameEndless_String"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor5",
+            "Key": "Cam_UI"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv3.prefab",
+            "Key": "Game3"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv4.prefab",
+            "Key": "Game4"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv5.prefab",
+            "Key": "Game5"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv6.prefab",
+            "Key": "Game6"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv7.prefab",
+            "Key": "Game7"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv8.prefab",
+            "Key": "Game8"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv9.prefab",
+            "Key": "Game9"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv10.prefab",
+            "Key": "Game10"
+          },
+          {
+            "Value": "Racing_Lv3",
+            "Key": "Game3_String"
+          },
+          {
+            "Value": "Racing_Lv4",
+            "Key": "Game4_String"
+          },
+          {
+            "Value": "Racing_Lv5",
+            "Key": "Game5_String"
+          },
+          {
+            "Value": "Racing_Lv6",
+            "Key": "Game6_String"
+          },
+          {
+            "Value": "Racing_Lv7",
+            "Key": "Game7_String"
+          },
+          {
+            "Value": "Racing_Lv8",
+            "Key": "Game8_String"
+          },
+          {
+            "Value": "Racing_Lv9",
+            "Key": "Game9_String"
+          },
+          {
+            "Value": "Racing_Lv10",
+            "Key": "Game10_String"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor1",
+            "Key": "Cam"
+          },
+          {
+            "Value": "23,300002",
+            "Key": "StarterProp"
+          },
+          {
+            "Value": "Racing_Lv1",
+            "Key": "Game1_String"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv1.prefab",
+            "Key": "Game1"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv2.prefab",
+            "Key": "Game2"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Endless.prefab",
+            "Key": "GameEndless"
+          },
+          {
+            "Value": "Racing_Lv2",
+            "Key": "Game2_String"
+          },
+          {
+            "Value": "Racing_Endless",
+            "Key": "GameEndless_String"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor5",
+            "Key": "Cam_UI"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv3.prefab",
+            "Key": "Game3"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv4.prefab",
+            "Key": "Game4"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv5.prefab",
+            "Key": "Game5"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv6.prefab",
+            "Key": "Game6"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv7.prefab",
+            "Key": "Game7"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv8.prefab",
+            "Key": "Game8"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv9.prefab",
+            "Key": "Game9"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Race_Lv10.prefab",
+            "Key": "Game10"
+          },
+          {
+            "Value": "Racing_Lv3",
+            "Key": "Game3_String"
+          },
+          {
+            "Value": "Racing_Lv4",
+            "Key": "Game4_String"
+          },
+          {
+            "Value": "Racing_Lv5",
+            "Key": "Game5_String"
+          },
+          {
+            "Value": "Racing_Lv6",
+            "Key": "Game6_String"
+          },
+          {
+            "Value": "Racing_Lv7",
+            "Key": "Game7_String"
+          },
+          {
+            "Value": "Racing_Lv8",
+            "Key": "Game8_String"
+          },
+          {
+            "Value": "Racing_Lv9",
+            "Key": "Game9_String"
+          },
+          {
+            "Value": "Racing_Lv10",
+            "Key": "Game10_String"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -31.0,
+          "normalized": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 31.0,
+          "sqrMagnitude": 961.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -25.8439998626709,
+      "PosY": 58.125999450683594,
+      "PosZ": 166.56500244140625,
+      "IsDelete": false,
+      "Name": "Prop2",
+      "RotY": 347.39999389648438,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 217,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/MovieGame/MovieGame_Starter.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor2",
+            "Key": "Cam"
+          },
+          {
+            "Value": "0",
+            "Key": "GameMode"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor2",
+            "Key": "Cam"
+          },
+          {
+            "Value": "0",
+            "Key": "GameMode"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 10065,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": 206,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -53.024551391601563,
+      "PosY": 55.756839752197266,
+      "PosZ": -178.69039916992188,
+      "IsDelete": false,
+      "Name": "Prop3",
+      "RotY": 167.39999389648438,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 217,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/MovieGame/MovieGame_InCinema_HaNu.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor3",
+            "Key": "Cam"
+          },
+          {
+            "Value": "23,300004",
+            "Key": "StarterProp"
+          },
+          {
+            "Value": "Shooting_Lv1",
+            "Key": "Game1_String"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv1.prefab",
+            "Key": "Game1"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv2.prefab",
+            "Key": "Game2"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Endless.prefab",
+            "Key": "GameEndless"
+          },
+          {
+            "Value": "Shooting_Lv2",
+            "Key": "Game2_String"
+          },
+          {
+            "Value": "Shooting_Endless",
+            "Key": "GameEndless_String"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor6",
+            "Key": "Cam_UI"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv3.prefab",
+            "Key": "Game3"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv4.prefab",
+            "Key": "Game4"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv5.prefab",
+            "Key": "Game5"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv6.prefab",
+            "Key": "Game6"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv7.prefab",
+            "Key": "Game7"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv8.prefab",
+            "Key": "Game8"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv9.prefab",
+            "Key": "Game9"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv10.prefab",
+            "Key": "Game10"
+          },
+          {
+            "Value": "Shooting_Lv3",
+            "Key": "Game3_String"
+          },
+          {
+            "Value": "Shooting_Lv4",
+            "Key": "Game4_String"
+          },
+          {
+            "Value": "Shooting_Lv5",
+            "Key": "Game5_String"
+          },
+          {
+            "Value": "Shooting_Lv6",
+            "Key": "Game6_String"
+          },
+          {
+            "Value": "Shooting_Lv7",
+            "Key": "Game7_String"
+          },
+          {
+            "Value": "Shooting_Lv8",
+            "Key": "Game8_String"
+          },
+          {
+            "Value": "Shooting_Lv9",
+            "Key": "Game9_String"
+          },
+          {
+            "Value": "Shooting_Lv10",
+            "Key": "Game10_String"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor3",
+            "Key": "Cam"
+          },
+          {
+            "Value": "23,300004",
+            "Key": "StarterProp"
+          },
+          {
+            "Value": "Shooting_Lv1",
+            "Key": "Game1_String"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv1.prefab",
+            "Key": "Game1"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv2.prefab",
+            "Key": "Game2"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Endless.prefab",
+            "Key": "GameEndless"
+          },
+          {
+            "Value": "Shooting_Lv2",
+            "Key": "Game2_String"
+          },
+          {
+            "Value": "Shooting_Endless",
+            "Key": "GameEndless_String"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor6",
+            "Key": "Cam_UI"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv3.prefab",
+            "Key": "Game3"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv4.prefab",
+            "Key": "Game4"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv5.prefab",
+            "Key": "Game5"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv6.prefab",
+            "Key": "Game6"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv7.prefab",
+            "Key": "Game7"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv8.prefab",
+            "Key": "Game8"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv9.prefab",
+            "Key": "Game9"
+          },
+          {
+            "Value": "Props/Outputs/Chap03/Chap03_MovieGame/MovieGameController_Shoot_Lv10.prefab",
+            "Key": "Game10"
+          },
+          {
+            "Value": "Shooting_Lv3",
+            "Key": "Game3_String"
+          },
+          {
+            "Value": "Shooting_Lv4",
+            "Key": "Game4_String"
+          },
+          {
+            "Value": "Shooting_Lv5",
+            "Key": "Game5_String"
+          },
+          {
+            "Value": "Shooting_Lv6",
+            "Key": "Game6_String"
+          },
+          {
+            "Value": "Shooting_Lv7",
+            "Key": "Game7_String"
+          },
+          {
+            "Value": "Shooting_Lv8",
+            "Key": "Game8_String"
+          },
+          {
+            "Value": "Shooting_Lv9",
+            "Key": "Game9_String"
+          },
+          {
+            "Value": "Shooting_Lv10",
+            "Key": "Game10_String"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -31.0,
+          "normalized": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 31.0,
+          "sqrMagnitude": 961.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -59.779998779296875,
+      "PosY": 57.752998352050781,
+      "PosZ": -148.42999267578125,
+      "IsDelete": false,
+      "Name": "Prop4",
+      "RotY": 167.39999389648438,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 217,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/MovieGame/MovieGame_Starter_HaNu.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor4",
+            "Key": "Cam"
+          },
+          {
+            "Value": "1",
+            "Key": "GameMode"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor4",
+            "Key": "Cam"
+          },
+          {
+            "Value": "1",
+            "Key": "GameMode"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 10067,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": 206,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false,
+      "Name": "Prop5",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 100,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/MovieGame/MovieGame_Camera.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor2",
+            "Key": "Cam"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor5",
+            "Key": "Cam2"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor4",
+            "Key": "Cam3"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor6",
+            "Key": "Cam4"
+          },
+          {
+            "Value": "23,300002",
+            "Key": "Starter1"
+          },
+          {
+            "Value": "23,300004",
+            "Key": "Starter2"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor2",
+            "Key": "Cam"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor5",
+            "Key": "Cam2"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor4",
+            "Key": "Cam3"
+          },
+          {
+            "Value": "LevelArea_P20321_F20321001_G23,Anchor6",
+            "Key": "Cam4"
+          },
+          {
+            "Value": "23,300002",
+            "Key": "Starter1"
+          },
+          {
+            "Value": "23,300004",
+            "Key": "Starter2"
+          }
+        ]
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      },
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": {
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": []
+}
