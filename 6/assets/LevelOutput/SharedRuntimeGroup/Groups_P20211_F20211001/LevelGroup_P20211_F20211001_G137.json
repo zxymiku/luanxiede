@@ -1,0 +1,837 @@
+{
+  "GroupGUID": null,
+  "GroupName": "PuzzleCompass_Anchor",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P20211_F20211001_G137",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": {
+    "Values": null,
+    "SharedValues": null
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "ResetPos",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": -69.48,
+      "PosY": 0.820667,
+      "PosZ": 44.94,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "SideRight_ShipPoseOriginPos",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": -122.8,
+      "PosY": -0.59,
+      "PosZ": 52.819,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "SideRight_ShipPoseTargetPos",
+      "RotY": 0.0,
+      "ID": 3,
+      "PosX": -77.8,
+      "PosY": -0.59,
+      "PosZ": 52.819,
+      "IsDelete": false
+    },
+    {
+      "RotX": 6.300009,
+      "RotZ": 2.4E-05,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": {
+        "fov": 0.0
+      },
+      "Name": "SideRight_LookAtShip_Cam01",
+      "RotY": 295.5,
+      "ID": 4,
+      "PosX": -87.2,
+      "PosY": 3.66,
+      "PosZ": 44.44,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 6E-06,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": {
+        "fov": 0.0
+      },
+      "Name": "SideRight_LookAtShip_Cam02",
+      "RotY": 359.4,
+      "ID": 5,
+      "PosX": -74.61,
+      "PosY": 1.86,
+      "PosZ": 44.64,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "SideRight_MonsterOriginPos",
+      "RotY": 180.0,
+      "ID": 6,
+      "PosX": -73.663,
+      "PosY": 0.78,
+      "PosZ": 52.611,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "SideRight_MonsterTargetPos",
+      "RotY": 180.0,
+      "ID": 7,
+      "PosX": -73.663,
+      "PosY": 0.78,
+      "PosZ": 52.611,
+      "IsDelete": false
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -71.027999877929688,
+      "PosY": 1.6050000190734863,
+      "PosZ": 46.066001892089844,
+      "IsDelete": false,
+      "Name": "Billboard",
+      "RotY": 180.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 102067,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": null,
+      "ValueSource": null,
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 1.5,
+        "DimY": 2.0,
+        "DimZ": 1.5,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.6,
+          "normalized": {
+            "x": 0.0,
+            "y": 0.6401844,
+            "z": 0.768221259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.781025,
+          "sqrMagnitude": 0.61
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20211/F20211001_G137/DialogueMain_F20211001_G137_P300001.json",
+        "PackList": [],
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "Type": "SubMission",
+              "Phase": "Accept",
+              "ID": 401510102
+            },
+            {
+              "Type": "SubMission",
+              "Phase": "Finish",
+              "ID": 401510102
+            }
+          ],
+          "Operation": "Or",
+          "DelayToLevelReload": false
+        },
+        "EnableDialogCamera": true
+      },
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 1136614623
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": null
+    },
+    {
+      "ID": 300002,
+      "PosX": -69.1500015258789,
+      "PosY": 0.82067298889160156,
+      "PosZ": 46.520000457763672,
+      "IsDelete": false,
+      "Name": "PuzzleCompass_GlobalProp",
+      "RotY": 180.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 100,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/Chapter02/X201/Maze_Chap02_X201_Event_PuzzleCompass_SR_Controller_00.json",
+      "ValueSource": null,
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": null
+    },
+    {
+      "ID": 300003,
+      "PosX": -69.1500015258789,
+      "PosY": 0.82067298889160156,
+      "PosZ": 46.520000457763672,
+      "IsDelete": false,
+      "Name": "TriggerHitn",
+      "RotY": 180.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 100,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": null,
+      "ValueSource": null,
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 1.82,
+        "DimY": 1.95,
+        "DimZ": 1.74,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.76,
+          "z": 1.23,
+          "normalized": {
+            "x": 0.0,
+            "y": 0.52564013,
+            "z": 0.850707054,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1.44585609,
+          "sqrMagnitude": 2.09049988
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": null
+    },
+    {
+      "ID": 300004,
+      "PosX": -122.80000305175781,
+      "PosY": -0.5899999737739563,
+      "PosZ": 52.819000244140625,
+      "IsDelete": false,
+      "Name": "Ship",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 102063,
+      "LoadOnInitial": false,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "129,300001",
+            "Key": "PuzzleCompass_Prop"
+          },
+          {
+            "Value": "129,300004",
+            "Key": "PuzzleCompass_CargoChest01"
+          },
+          {
+            "Value": 4.0,
+            "Key": "PuzzleCompass_ShipMoveSpeed"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_ShipPoseOriginPos",
+            "Key": "PuzzleCompass_ShipOriginPos"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_ShipPoseTargetPos",
+            "Key": "PuzzleCompass_ShipTargetPos"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_LookAtShip_Cam01",
+            "Key": "PuzzleCompass_Vcam01"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_LookAtShip_Cam02",
+            "Key": "PuzzleCompass_Vcam02"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "129,300001",
+            "Key": "PuzzleCompass_Prop"
+          },
+          {
+            "Value": "129,300004",
+            "Key": "PuzzleCompass_CargoChest01"
+          },
+          {
+            "Value": 4.0,
+            "Key": "PuzzleCompass_ShipMoveSpeed"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_ShipPoseOriginPos",
+            "Key": "PuzzleCompass_ShipOriginPos"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_ShipPoseTargetPos",
+            "Key": "PuzzleCompass_ShipTargetPos"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_LookAtShip_Cam01",
+            "Key": "PuzzleCompass_Vcam01"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_LookAtShip_Cam02",
+            "Key": "PuzzleCompass_Vcam02"
+          }
+        ]
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": null
+    },
+    {
+      "ID": 300005,
+      "PosX": -77.800003051757813,
+      "PosY": -0.5899999737739563,
+      "PosZ": 52.819000244140625,
+      "IsDelete": false,
+      "Name": "Ship",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 102063,
+      "LoadOnInitial": false,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": null,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "129,300001",
+            "Key": "PuzzleCompass_Prop"
+          },
+          {
+            "Value": "129,300004",
+            "Key": "PuzzleCompass_CargoChest01"
+          },
+          {
+            "Value": 4.0,
+            "Key": "PuzzleCompass_ShipMoveSpeed"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_ShipPoseOriginPos",
+            "Key": "PuzzleCompass_ShipOriginPos"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_ShipPoseTargetPos",
+            "Key": "PuzzleCompass_ShipTargetPos"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_LookAtShip_Cam01",
+            "Key": "PuzzleCompass_Vcam01"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_LookAtShip_Cam02",
+            "Key": "PuzzleCompass_Vcam02"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "129,300001",
+            "Key": "PuzzleCompass_Prop"
+          },
+          {
+            "Value": "129,300004",
+            "Key": "PuzzleCompass_CargoChest01"
+          },
+          {
+            "Value": 4.0,
+            "Key": "PuzzleCompass_ShipMoveSpeed"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_ShipPoseOriginPos",
+            "Key": "PuzzleCompass_ShipOriginPos"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_ShipPoseTargetPos",
+            "Key": "PuzzleCompass_ShipTargetPos"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_LookAtShip_Cam01",
+            "Key": "PuzzleCompass_Vcam01"
+          },
+          {
+            "Value": "LevelArea_P20211_F20211001_G137,SideRight_LookAtShip_Cam02",
+            "Key": "PuzzleCompass_Vcam02"
+          }
+        ]
+      },
+      "Trigger": null,
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": null
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": []
+}

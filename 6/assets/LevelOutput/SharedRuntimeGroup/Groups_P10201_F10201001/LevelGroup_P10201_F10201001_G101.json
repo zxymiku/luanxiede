@@ -1,0 +1,107 @@
+{
+  "GroupGUID": null,
+  "GroupName": "MainMission2020403_",
+  "Category": "Mission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P10201_F10201001_G101",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 202040317
+      }
+    ],
+    "Operation": "And",
+    "DelayToLevelReload": false
+  },
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Finish",
+        "ID": 202040317
+      }
+    ],
+    "Operation": "And",
+    "DelayToLevelReload": true
+  },
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": false,
+  "OwnerMainMissionID": 2020403,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": null,
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [
+    {
+      "RotX": 11.94263,
+      "RotZ": -1E-06,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor1",
+      "RotY": 29.99994,
+      "ID": 1,
+      "PosX": -35.245,
+      "PosY": 3.001,
+      "PosZ": -79.225,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": -33.84,
+      "PosY": 1.314879,
+      "PosZ": -77.35,
+      "IsDelete": false
+    },
+    {
+      "RotX": 3.634955,
+      "RotZ": 359.9531,
+      "Usage": "Camera",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor3",
+      "RotY": 359.6353,
+      "ID": 3,
+      "PosX": -32.54,
+      "PosY": 2.86,
+      "PosZ": -80.99,
+      "IsDelete": false
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": null
+}

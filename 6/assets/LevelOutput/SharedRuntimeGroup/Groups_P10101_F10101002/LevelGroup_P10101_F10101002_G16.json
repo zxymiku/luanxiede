@@ -1,0 +1,187 @@
+{
+  "GroupGUID": null,
+  "GroupName": "Sound",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P10101_F10101002_G16",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": null,
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 30.0,
+        "DimY": 10.0,
+        "DimZ": 60.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Belobog",
+          "StateName": "State_AdministrativeOffice"
+        }
+      ],
+      "OnExitAudioState": null,
+      "OnEnterRTPC": [],
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": null,
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 30.0,
+        "DimY": 10.0,
+        "DimZ": 60.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": null,
+      "OnExitAudioState": null,
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 11.0,
+          "IsRandom": false,
+          "RandomFrequncy": 5.0,
+          "RTPCRangeMin": 0.0,
+          "RTPCRangeMax": 0.0
+        }
+      ],
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": null,
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": null
+}

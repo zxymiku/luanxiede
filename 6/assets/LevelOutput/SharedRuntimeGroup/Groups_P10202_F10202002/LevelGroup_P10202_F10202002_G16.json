@@ -1,0 +1,901 @@
+{
+  "GroupGUID": null,
+  "GroupName": "Sound",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P10202_F10202002_G16",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": null,
+  "ConflictIDList": null,
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 20.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Changletian",
+          "StateName": "State_Changletian_Dihengsi"
+        }
+      ],
+      "OnExitAudioState": null,
+      "OnEnterRTPC": null,
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": null,
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 43.56,
+      "PosY": 5.22,
+      "PosZ": -8.07,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 20.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": null,
+      "OnExitAudioState": null,
+      "OnEnterRTPC": null,
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_changletian_dihengsi_foley_distant",
+        "PlayEventCD": 0.0,
+        "StopEventName": "Ev_sfx_amb_changletian_dihengsi_foley_distant_stop",
+        "StopEventCD": 0.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 39.79,
+              "y": 1.8,
+              "z": -5.8,
+              "normalized": {
+                "x": 0.98855263,
+                "y": 0.0447196439,
+                "z": -0.144096643,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 40.2507668,
+              "sqrMagnitude": 1620.12415
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            }
+          }
+        ]
+      },
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": 43.56,
+      "PosY": 5.22,
+      "PosZ": -8.07,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 20.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": null,
+      "OnExitAudioState": null,
+      "OnEnterRTPC": null,
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_changletian_dihengsi_foley_left",
+        "PlayEventCD": 0.0,
+        "StopEventName": "Ev_sfx_amb_changletian_dihengsi_foley_left_stop",
+        "StopEventCD": 0.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 44.99,
+              "y": 1.898,
+              "z": -13.578,
+              "normalized": {
+                "x": 0.956570745,
+                "y": 0.0403549932,
+                "z": -0.288693428,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 47.0325928,
+              "sqrMagnitude": 2212.0647
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            }
+          }
+        ]
+      },
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District3",
+      "RotY": 0.0,
+      "ID": 3,
+      "PosX": 43.56,
+      "PosY": 5.22,
+      "PosZ": -8.07,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 20.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": null,
+      "OnExitAudioState": null,
+      "OnEnterRTPC": null,
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_changletian_dihengsi_foley_right",
+        "PlayEventCD": 0.0,
+        "StopEventName": "Ev_sfx_amb_changletian_dihengsi_foley_right_stop",
+        "StopEventCD": 0.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 44.99,
+              "y": 1.898,
+              "z": -2.35,
+              "normalized": {
+                "x": 0.997753561,
+                "y": 0.04209238,
+                "z": -0.0521164834,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 45.0912971,
+              "sqrMagnitude": 2033.2251
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            }
+          }
+        ]
+      },
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District4",
+      "RotY": 0.0,
+      "ID": 4,
+      "PosX": 43.56,
+      "PosY": 5.22,
+      "PosZ": -8.07,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 20.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": null,
+      "OnExitAudioState": null,
+      "OnEnterRTPC": null,
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_changletian_dihengsi_side_loop",
+        "PlayEventCD": 0.0,
+        "StopEventName": "Ev_sfx_amb_changletian_dihengsi_side_loop_stop",
+        "StopEventCD": 0.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 44.99,
+              "y": 1.898,
+              "z": -14.97,
+              "normalized": {
+                "x": 0.948092639,
+                "y": 0.0399973281,
+                "z": -0.3154689,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 47.45317,
+              "sqrMagnitude": 2251.80347
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            }
+          }
+        ]
+      },
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District5",
+      "RotY": 0.0,
+      "ID": 5,
+      "PosX": 43.56,
+      "PosY": 5.22,
+      "PosZ": -8.07,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 10.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 20.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": null,
+      "OnExitAudioState": null,
+      "OnEnterRTPC": null,
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_changletian_dihengsi_screen_tech",
+        "PlayEventCD": 0.0,
+        "StopEventName": "Ev_sfx_amb_changletian_dihengsi_screen_tech_stop",
+        "StopEventCD": 0.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 41.922,
+              "y": 2.641,
+              "z": -14.672,
+              "normalized": {
+                "x": 0.9421991,
+                "y": 0.0593566075,
+                "z": -0.329753935,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 44.493782,
+              "sqrMagnitude": 1979.69653
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            }
+          }
+        ]
+      },
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District6",
+      "RotY": 0.0,
+      "ID": 6,
+      "PosX": 43.56,
+      "PosY": 5.22,
+      "PosZ": -8.07,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 20.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": null,
+      "OnExitAudioState": null,
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 8.0,
+          "IsRandom": false,
+          "RandomFrequncy": 5.0,
+          "RTPCRangeMin": 0.0,
+          "RTPCRangeMax": 0.0
+        }
+      ],
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": null,
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District7",
+      "RotY": 0.0,
+      "ID": 7,
+      "PosX": 43.56,
+      "PosY": 5.22,
+      "PosZ": -8.07,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 10.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 20.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": null,
+      "OnExitAudioState": null,
+      "OnEnterRTPC": null,
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_changletian_dihengsi_cabinet_large_idle",
+        "PlayEventCD": 0.0,
+        "StopEventName": "Ev_sfx_amb_changletian_dihengsi_cabinet_large_idle_stop",
+        "StopEventCD": 0.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 44.971,
+              "y": 4.532,
+              "z": -0.598,
+              "normalized": {
+                "x": 0.9948734,
+                "y": 0.100259423,
+                "z": -0.0132292872,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 45.2027359,
+              "sqrMagnitude": 2043.28748
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            }
+          }
+        ]
+      },
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District8",
+      "RotY": 0.0,
+      "ID": 8,
+      "PosX": 43.56,
+      "PosY": 5.22,
+      "PosZ": -8.07,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 10.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 20.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "LoadOnInitial": true,
+      "OnEnterAudioState": null,
+      "OnExitAudioState": null,
+      "OnEnterRTPC": null,
+      "OnExitRTPC": null,
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_changletian_dihengsi_cabinet_small_idle",
+        "PlayEventCD": 0.0,
+        "StopEventName": "Ev_sfx_amb_changletian_dihengsi_cabinet_small_idle_stop",
+        "StopEventCD": 0.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 36.65,
+              "y": 4.532,
+              "z": -5.2,
+              "normalized": {
+                "x": 0.982746243,
+                "y": 0.121522672,
+                "z": -0.139434651,
+                "normalized": {
+                  "x": 0.9827463,
+                  "y": 0.12152268,
+                  "z": -0.139434665,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 37.2934532,
+              "sqrMagnitude": 1390.80176
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            }
+          }
+        ]
+      },
+      "TransitionSound": null,
+      "SoundUsage": "Default",
+      "DistrictType": "Sound",
+      "CanTriggerByFakeAvatar": false,
+      "RoomAuxBus": null,
+      "BGMEmotion": null,
+      "InRoomEmitter": false,
+      "NPCCrowdRadius": 25.0,
+      "LevelGraph": null,
+      "ValueSource": null,
+      "Name": "District9",
+      "RotY": 0.0,
+      "ID": 9,
+      "PosX": 43.56,
+      "PosY": 5.22,
+      "PosZ": -8.07,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": null
+}

@@ -1,0 +1,463 @@
+{
+  "GroupGUID": null,
+  "GroupName": "NPC",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P10305_F10305001_G48",
+  "SaveType": "Permanent",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": {
+    "Values": null,
+    "SharedValues": null
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": [],
+  "EnableGroupAI": false,
+  "AnchorList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": -5.556881,
+      "PosY": 2.958,
+      "PosZ": -403.6174,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": -4.524,
+      "PosY": 2.882,
+      "PosZ": -400.408,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor3",
+      "RotY": 0.0,
+      "ID": 3,
+      "PosX": 1.32,
+      "PosY": 2.456,
+      "PosZ": -402.62,
+      "IsDelete": false
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -2.7320001125335693,
+      "PosY": 1.6134580373764038,
+      "PosZ": -403.00100708007813,
+      "IsDelete": false,
+      "Name": "NPC1",
+      "RotY": 282.205810546875,
+      "NPCID": 13101,
+      "LevelGraph": null,
+      "LoadOnInitial": true,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "CampID": 0,
+      "UseDistrictTriggerType": false,
+      "Trigger": null,
+      "AIConfig": null,
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "StaticNPC": false,
+      "OverrideLodTemplate": "WithoutLod",
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [
+        45
+      ],
+      "IsOverrideArtModelOffset": false,
+      "OverrideArtModelOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "DefaultIdleStateName": null,
+      "DefaultBlendShapeConfigName": null,
+      "BoneEmotionName": null,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "MappingInfoID": 2369,
+      "SubMapID": 0,
+      "OverrideTriggerSound": false,
+      "SoundRange": 0.0,
+      "NPCLodType": "Normal",
+      "PossessionConfig": null,
+      "BoardShowList": [
+        1,
+        64,
+        4
+      ],
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "DefaultStory": null,
+      "FirstDialogueGroupID": 0,
+      "TalkChosenType": "undefined",
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010209,
+      "FreeStyleAnimGraphName": null,
+      "OverrideSeriesID": 0,
+      "IsMapContent": true,
+      "MiniMapIconType": 4,
+      "BornType": "Mission",
+      "IsNeedFade": false,
+      "IsInitialHidden": false,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10305/F10305001_G48/DialogueMain_F10305001_G48_N400001.json",
+        "PackList": [
+          {
+            "Name": "Common",
+            "LevelGraph": "Config/Level/NPCDialogue/P10305/F10305001_G48/DialoguePack_Common_F10305001_G48_N400001.json"
+          }
+        ],
+        "EnableCondition": null,
+        "EnableDialogCamera": true
+      },
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "OverrideBehaviorType": "None",
+      "OverrideBehaviorParameter": null,
+      "OverrideReplaceMaterialKey": null,
+      "ConnectWithSubMissionIDList": null,
+      "NearestTeleportMappingInfoID": 0,
+      "RaidID": 0,
+      "ActivityMapConditionIDList": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "TryCapture": true,
+        "CaptureDistanceTolerance": 10.0,
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      }
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": [
+    {
+      "SlotList": [
+        {
+          "PlayeMode": "Loop",
+          "PointList": [
+            {
+              "PosX": -1.97,
+              "PosY": 0.0,
+              "PosZ": 2.726,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "PositionType": "AnchorPoint",
+                    "AnchorGroupId": 48,
+                    "AnchorPointId": 1,
+                    "EntityInstanceId": 0,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 25.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": -1.33,
+              "PosY": 0.0,
+              "PosZ": 5.2,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "PositionType": "AnchorPoint",
+                    "AnchorGroupId": 48,
+                    "AnchorPointId": 2,
+                    "EntityInstanceId": 0,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "StoryAvatarID": "1",
+                    "StoryMotionID": 100010209,
+                    "ForceStart": true,
+                    "NormalizedTimeWait": 0.0,
+                    "NormalizedTimeStart": 0.0,
+                    "NormalizedTransitionDuration": 0.05,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 25.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": 1.917,
+              "PosY": 0.0,
+              "PosZ": 5.531,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 25.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": 3.05,
+              "PosY": 0.0,
+              "PosZ": 3.235,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "PositionType": "AnchorPoint",
+                    "AnchorGroupId": 48,
+                    "AnchorPointId": 3,
+                    "EntityInstanceId": 0,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "StoryAvatarID": "1",
+                    "StoryMotionID": 100010221,
+                    "ForceStart": true,
+                    "NormalizedTimeWait": 0.0,
+                    "NormalizedTimeStart": 0.0,
+                    "NormalizedTransitionDuration": 0.05,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 25.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": 2.238,
+              "PosY": 0.0,
+              "PosZ": 1.311,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 25.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": -0.89,
+              "PosY": 0.0,
+              "PosZ": 0.959,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true,
+                    "FinishAfterStop": false,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 25.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": false,
+                "TaskEnabled": true
+              }
+            }
+          ]
+        }
+      ],
+      "CommonPointList": [],
+      "Name": "SmartObject1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": -0.714132,
+      "PosY": 1.55316,
+      "PosZ": -406.1059,
+      "IsDelete": false
+    }
+  ]
+}

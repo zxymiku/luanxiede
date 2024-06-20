@@ -1,0 +1,292 @@
+{
+  "GroupGUID": null,
+  "GroupName": "MainMission2010905_",
+  "Category": "Mission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P20123_F20123001_G101",
+  "SaveType": "Permanent",
+  "SaveDimensionFilter": null,
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 201090507
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 201090508
+      }
+    ],
+    "Operation": "Or",
+    "DelayToLevelReload": false
+  },
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Finish",
+        "ID": 201090508
+      }
+    ],
+    "Operation": "And",
+    "DelayToLevelReload": false
+  },
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Server",
+  "LoadOnInitial": false,
+  "OwnerMainMissionID": 2010905,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": null,
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 9.510001,
+      "PosY": 11.94659,
+      "PosZ": -1.379998,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": 19.275,
+      "PosY": 11.81949,
+      "PosZ": -3.085,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": 29.55757,
+      "PosY": 12.00384,
+      "PosZ": -1.697616,
+      "IsDelete": false
+    },
+    {
+      "ID": 4,
+      "PosX": 38.86491,
+      "PosY": 11.98111,
+      "PosZ": 5.834409,
+      "IsDelete": false
+    },
+    {
+      "ID": 5,
+      "PosX": 37.31,
+      "PosY": 12.00804,
+      "PosZ": 16.51,
+      "IsDelete": false
+    },
+    {
+      "ID": 6,
+      "PosX": 23.17703,
+      "PosY": 13.55968,
+      "PosZ": 20.00233,
+      "IsDelete": false
+    },
+    {
+      "ID": 7,
+      "PosX": 20.2822,
+      "PosY": 15.01871,
+      "PosZ": 30.36588,
+      "IsDelete": false
+    },
+    {
+      "ID": 8,
+      "PosX": 49.33,
+      "PosY": 15.90617,
+      "PosZ": -6.22,
+      "IsDelete": false
+    },
+    {
+      "ID": 9,
+      "PosX": 52.32,
+      "PosY": 15.97369,
+      "PosZ": -10.28,
+      "IsDelete": false
+    },
+    {
+      "ID": 10,
+      "PosX": 15.3,
+      "PosY": 11.29615,
+      "PosZ": -0.79,
+      "IsDelete": false
+    },
+    {
+      "ID": 11,
+      "PosX": 20.42,
+      "PosY": 14.89349,
+      "PosZ": 24.27,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        10,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 19.95992,
+      "PosY": 15.05441,
+      "PosZ": 30.5634,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        7,
+        11,
+        6,
+        5,
+        4,
+        8,
+        9
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": 19.95992,
+      "PosY": 15.05441,
+      "PosZ": 30.5634,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 9.5100011825561523,
+      "PosY": 11.946590423583984,
+      "PosZ": -1.3799979686737061,
+      "IsDelete": false,
+      "Name": "NPC1",
+      "RotY": 287.72250366210938,
+      "NPCID": 2104,
+      "LevelGraph": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "UseDistrictTriggerType": false,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2010905.json",
+        "OverrideVariable": false,
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 101,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "StaticNPC": false,
+      "OverrideLodTemplate": "WithoutLod",
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideArtModelOffset": false,
+      "OverrideArtModelOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "DefaultIdleStateName": null,
+      "DefaultBlendShapeConfigName": null,
+      "BoneEmotionName": null,
+      "DefaultLookAtMode": "Closed",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "OverrideTriggerSound": false,
+      "SoundRange": 0.0,
+      "NPCLodType": "Normal",
+      "PossessionConfig": null,
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "DefaultStory": null,
+      "FirstDialogueGroupID": 0,
+      "TalkChosenType": "undefined",
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "IdleState",
+      "DefaultIdleFreeStyleMotionID": 0,
+      "FreeStyleAnimGraphName": null,
+      "OverrideSeriesID": 0,
+      "IsMapContent": false,
+      "MiniMapIconType": 0,
+      "BornType": "Mission",
+      "IsNeedFade": false,
+      "IsInitialHidden": false,
+      "InitialHiddenNodeList": [],
+      "Dialog": null,
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "OverrideBehaviorType": "None",
+      "OverrideBehaviorParameter": null,
+      "OverrideReplaceMaterialKey": null,
+      "ConnectWithSubMissionIDList": null,
+      "NearestTeleportMappingInfoID": 0,
+      "RaidID": 0,
+      "ActivityMapConditionIDList": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "SpawnConfig": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": null
+}

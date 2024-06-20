@@ -1,0 +1,484 @@
+{
+  "GroupGUID": null,
+  "GroupName": "NPC",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P10305_F10305001_G22",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": {
+    "Values": null,
+    "SharedValues": null
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": [],
+  "EnableGroupAI": false,
+  "AnchorList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 5.153,
+      "PosY": -14.916,
+      "PosZ": -260.52,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": 3.784734,
+      "PosY": -14.7,
+      "PosZ": -282.55,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor3",
+      "RotY": 0.0,
+      "ID": 3,
+      "PosX": 14.47611,
+      "PosY": -15.07,
+      "PosZ": -269.6653,
+      "IsDelete": false
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 18.980670928955078,
+      "PosY": -15.925060272216797,
+      "PosZ": -265.35861206054688,
+      "IsDelete": false,
+      "Name": "NPC1",
+      "RotY": 117.72630310058594,
+      "NPCID": 13204,
+      "LevelGraph": null,
+      "LoadOnInitial": true,
+      "ValueSource": {
+        "Values": null,
+        "SharedValues": null
+      },
+      "CampID": 0,
+      "UseDistrictTriggerType": false,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/NPC/ST_NPC_Master.json",
+        "OverrideVariable": false,
+        "PathwayList": null,
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {
+        "Values": null
+      },
+      "SOConfig": {
+        "InstanceID": 1,
+        "SlotIndex": 0
+      },
+      "StaticNPC": false,
+      "OverrideLodTemplate": "WithoutLod",
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideArtModelOffset": false,
+      "OverrideArtModelOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "DefaultIdleStateName": null,
+      "DefaultBlendShapeConfigName": null,
+      "BoneEmotionName": null,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "OverrideTriggerSound": false,
+      "SoundRange": 0.0,
+      "NPCLodType": "Normal",
+      "PossessionConfig": null,
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "DefaultStory": null,
+      "FirstDialogueGroupID": 0,
+      "TalkChosenType": "undefined",
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "FreeStyleAnimGraphName": null,
+      "OverrideSeriesID": 0,
+      "IsMapContent": false,
+      "MiniMapIconType": 0,
+      "BornType": "Mission",
+      "IsNeedFade": false,
+      "IsInitialHidden": false,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10305/F10305001_G22/DialogueMain_F10305001_G22_N400001.json",
+        "PackList": [
+          {
+            "Name": "Common",
+            "LevelGraph": "Config/Level/NPCDialogue/P10305/F10305001_G22/DialoguePack_Common_F10305001_G22_N400001.json"
+          }
+        ],
+        "EnableCondition": null,
+        "EnableDialogCamera": true
+      },
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "OverrideBehaviorType": "None",
+      "OverrideBehaviorParameter": null,
+      "OverrideReplaceMaterialKey": null,
+      "ConnectWithSubMissionIDList": null,
+      "NearestTeleportMappingInfoID": 0,
+      "RaidID": 0,
+      "ActivityMapConditionIDList": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "TryCapture": true,
+        "CaptureDistanceTolerance": 1.5,
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": {
+        "ConfigType": "ByEntityType",
+        "Npc": false,
+        "NpcMonster": false,
+        "LocalPlayer": true,
+        "Teammember": true,
+        "FakePlayer": false,
+        "TargetList": null,
+        "EvaluatedInstances": null
+      }
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": [
+    {
+      "SlotList": [
+        {
+          "PlayeMode": "Loop",
+          "PointList": [
+            {
+              "PosX": 19.4,
+              "PosY": 0.086636,
+              "PosZ": 18.95,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": false,
+                    "FinishAfterStop": true,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "StoryAvatarID": "NPC_Lady",
+                    "StoryMotionID": 100020335,
+                    "ForceStart": true,
+                    "NormalizedTimeWait": 0.0,
+                    "NormalizedTimeStart": 0.0,
+                    "NormalizedTransitionDuration": 0.05,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 12.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": true,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": 5.7,
+              "PosY": 0.096606,
+              "PosZ": 22.58,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": false,
+                    "FinishAfterStop": true,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "PositionType": "AnchorPoint",
+                    "AnchorGroupId": 22,
+                    "AnchorPointId": 1,
+                    "EntityInstanceId": 0,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "StoryAvatarID": "NPC_Lady",
+                    "StoryMotionID": 100020221,
+                    "ForceStart": true,
+                    "NormalizedTimeWait": 0.0,
+                    "NormalizedTimeStart": 0.0,
+                    "NormalizedTransitionDuration": 0.05,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 15.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": true,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": -9.58,
+              "PosY": 0.086639,
+              "PosZ": 14.5,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": false,
+                    "FinishAfterStop": true,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "StoryAvatarID": "NPC_Lady",
+                    "StoryMotionID": 100020335,
+                    "ForceStart": true,
+                    "NormalizedTimeWait": 0.0,
+                    "NormalizedTimeStart": 0.0,
+                    "NormalizedTransitionDuration": 0.05,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 15.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": true,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": -5.38,
+              "PosY": 0.0,
+              "PosZ": 8.72,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": false,
+                    "FinishAfterStop": true,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 15.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": true,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": 6.75,
+              "PosY": 0.086645,
+              "PosZ": 11.71,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": false,
+                    "FinishAfterStop": true,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "StoryAvatarID": "NPC_Lady",
+                    "StoryMotionID": 100020335,
+                    "ForceStart": true,
+                    "NormalizedTimeWait": 0.0,
+                    "NormalizedTimeStart": 0.0,
+                    "NormalizedTransitionDuration": 0.05,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 15.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": true,
+                "TaskEnabled": true
+              }
+            },
+            {
+              "PosX": 8.56,
+              "PosY": 0.086645,
+              "PosZ": 18.06,
+              "RotY": 0.0,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "IsLoop": false,
+                "IsShuffle": false,
+                "Tasks": [
+                  {
+                    "PositionType": "SmartObjectPoint",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": false,
+                    "FinishAfterStop": true,
+                    "AccurateStop": false,
+                    "AlignRotation": false,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "StoryAvatarID": "NPC_Lady",
+                    "StoryMotionID": 100020335,
+                    "ForceStart": true,
+                    "NormalizedTimeWait": 0.0,
+                    "NormalizedTimeStart": 0.0,
+                    "NormalizedTransitionDuration": 0.05,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "Time": 15.0,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": [],
+                "CompleteAfterMessage": false,
+                "DisableLookAt": false,
+                "EnableTalk": true,
+                "TaskEnabled": true
+              }
+            }
+          ]
+        }
+      ],
+      "CommonPointList": [],
+      "Name": "SmartObject1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": -0.219219,
+      "PosY": -16.0117,
+      "PosZ": -284.1287,
+      "IsDelete": false
+    }
+  ]
+}

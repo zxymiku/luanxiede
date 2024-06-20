@@ -1,0 +1,312 @@
+{
+  "GroupGUID": null,
+  "GroupName": "MainMission2010705_",
+  "Category": "Mission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P20122_F20122001_G20",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 201070512
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 201070508
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 201070513
+      }
+    ],
+    "Operation": "Or",
+    "DelayToLevelReload": false
+  },
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Finish",
+        "ID": 201070513
+      }
+    ],
+    "Operation": "And",
+    "DelayToLevelReload": false
+  },
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": false,
+  "OwnerMainMissionID": 2010705,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": null,
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Default",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Mission_201070512",
+      "RotY": 221.9,
+      "ID": 2,
+      "PosX": -51.55,
+      "PosY": 13.47,
+      "PosZ": 158.26,
+      "IsDelete": false
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -51.029998779296875,
+      "PosY": 9.7799997329711914,
+      "PosZ": 160.72999572753906,
+      "IsDelete": false,
+      "Name": "Probe_Mission_201070512",
+      "RotY": 0.0,
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "PropID": 117,
+      "LoadOnInitial": true,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_Probe_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "Maze_Start_ModeProbe_201070512",
+            "Key": "Maze_MissionStart_ModeProbe_01"
+          },
+          {
+            "Value": "Props/Outputs/Common/Common_Prop_Probe/Common_Prop_ProbeBoard.prefab",
+            "Key": "ProbePuzzlePath"
+          },
+          {
+            "Value": 117,
+            "Key": "ProbePropID"
+          },
+          {
+            "Value": "16,300002",
+            "Key": "ProbeTarget"
+          },
+          {
+            "Value": "FinishMission_201070512",
+            "Key": "Maze_Probe_FindTarget"
+          },
+          {
+            "Value": "End_ModeProbe_201070512",
+            "Key": "Maze_MissionEnd_ModeProbe_01"
+          },
+          {
+            "Value": "Maze_StartShow_ModeProbe_01",
+            "Key": "Maze_StartShow_ModeProbe_01"
+          },
+          {
+            "Value": "Reset_ModeProbe_01",
+            "Key": "Maze_RestModeProbe"
+          },
+          {
+            "Value": "7",
+            "Key": "Maze_SetProbeUseNumber"
+          },
+          {
+            "Value": "LevelArea_P20122_F20122001_G20",
+            "Key": "Maze_ResetPlayerPostion_AreaName"
+          },
+          {
+            "Value": "Mission_201070512",
+            "Key": "Maze_ResetPlayerPostion_AnchorName"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "Maze_Start_ModeProbe_201070512",
+            "Key": "Maze_MissionStart_ModeProbe_01"
+          },
+          {
+            "Value": "Props/Outputs/Common/Common_Prop_Probe/Common_Prop_ProbeBoard.prefab",
+            "Key": "ProbePuzzlePath"
+          },
+          {
+            "Value": 117,
+            "Key": "ProbePropID"
+          },
+          {
+            "Value": "16,300002",
+            "Key": "ProbeTarget"
+          },
+          {
+            "Value": "FinishMission_201070512",
+            "Key": "Maze_Probe_FindTarget"
+          },
+          {
+            "Value": "End_ModeProbe_201070512",
+            "Key": "Maze_MissionEnd_ModeProbe_01"
+          },
+          {
+            "Value": "Maze_StartShow_ModeProbe_01",
+            "Key": "Maze_StartShow_ModeProbe_01"
+          },
+          {
+            "Value": "Reset_ModeProbe_01",
+            "Key": "Maze_RestModeProbe"
+          },
+          {
+            "Value": "7",
+            "Key": "Maze_SetProbeUseNumber"
+          },
+          {
+            "Value": "LevelArea_P20122_F20122001_G20",
+            "Key": "Maze_ResetPlayerPostion_AreaName"
+          },
+          {
+            "Value": "Mission_201070512",
+            "Key": "Maze_ResetPlayerPostion_AnchorName"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 0.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "PointList": [],
+        "Server": false
+      },
+      "CampID": 4,
+      "State": "Closed",
+      "EventID": 0,
+      "OverrideHintRange": -1.0,
+      "OverrideSoundRange": -1.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": null,
+      "BridgeStateRotations": [],
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "ChestID": 0,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "FirstDialogueGroupID": 0,
+      "TalkDialogGroupIDList": [],
+      "TalkChosenType": "undefined",
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": false,
+      "HideInStory": false,
+      "PerformanceHideFlags": 0,
+      "DisableDither": false,
+      "StageObjectCapture": null,
+      "RaidID": 0,
+      "FarmElementID": 0,
+      "CocoonID": 0,
+      "ActivityMapConditionIDList": null,
+      "OverrideMapIconType": -1,
+      "OverrideMapStateIcons": null,
+      "OverridePropName": {
+        "hash": 371857150
+      },
+      "Dialog": null,
+      "InteractIconType": "ChatMissionIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "InteractTitle": {
+        "hash": 371857150
+      },
+      "CustomParameter": null,
+      "MapCustomParameter": null,
+      "NearestTeleportMappingInfoID": 0,
+      "OverrideBoardShowList": null,
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "IsOverrideAudioSwitch": false,
+      "AudioSwitchGroupName": null,
+      "AudioSwitchName": null,
+      "OverrideReplaceMaterialKey": null,
+      "LookAtPlayer": false,
+      "LookAtPlayerTriggerRadius": 2.0,
+      "SpawnConfig": null
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": null
+}

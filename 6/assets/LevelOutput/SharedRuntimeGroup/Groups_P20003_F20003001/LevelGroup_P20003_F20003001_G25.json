@@ -1,0 +1,741 @@
+{
+  "GroupGUID": null,
+  "GroupName": "DefaultMonster",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P20003_F20003001_G25",
+  "SaveType": "Permanent",
+  "SaveDimensionFilter": null,
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "Type": "MainMission",
+        "Phase": "Finish",
+        "ID": 1000401
+      }
+    ],
+    "Operation": "And",
+    "DelayToLevelReload": false
+  },
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Server",
+  "LoadOnInitial": false,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 1001,
+  "ValueSource": null,
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [],
+  "MonsterList": [
+    {
+      "ID": 200001,
+      "PosX": 30.459999084472656,
+      "PosY": 80.286209106445313,
+      "PosZ": 100.11000061035156,
+      "IsDelete": false,
+      "Name": "Monster1",
+      "RotY": 200.0,
+      "NPCMonsterID": 8012010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": null,
+        "OverrideVariable": false,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "SpecialStandBy1",
+      "EventID": 20003101,
+      "PurposeType": "Normal",
+      "FarmElementID": 0,
+      "BoardShowList": [
+        2
+      ],
+      "IsNeedFade": false,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "NearestTeleportMappingInfoID": 0,
+      "IsClientOnly": false,
+      "TagList": null,
+      "Dialog": null,
+      "DialogueTriggerRadius": 0.0,
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "InteractIconType": "ChatIcon",
+      "SpawnConfig": null,
+      "TagOperation": "Override"
+    },
+    {
+      "ID": 200003,
+      "PosX": 29.516769409179688,
+      "PosY": 80.286209106445313,
+      "PosZ": 97.0593032836914,
+      "IsDelete": false,
+      "Name": "Monster3",
+      "RotY": 0.0,
+      "NPCMonsterID": 8012030,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": null,
+        "OverrideVariable": false,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "SpecialStandBy1",
+      "EventID": 20003103,
+      "PurposeType": "Normal",
+      "FarmElementID": 0,
+      "BoardShowList": [
+        2
+      ],
+      "IsNeedFade": false,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "NearestTeleportMappingInfoID": 0,
+      "IsClientOnly": false,
+      "TagList": null,
+      "Dialog": null,
+      "DialogueTriggerRadius": 0.0,
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "InteractIconType": "ChatIcon",
+      "SpawnConfig": null,
+      "TagOperation": "Override"
+    },
+    {
+      "ID": 200004,
+      "PosX": 63.459999084472656,
+      "PosY": 80.260002136230469,
+      "PosZ": 118.09500122070313,
+      "IsDelete": false,
+      "Name": "Monster4",
+      "RotY": 0.0,
+      "NPCMonsterID": 8011010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": null,
+        "OverrideVariable": false,
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 25,
+            "UseID": 4,
+            "Type": "Loop",
+            "StartAt": 12
+          }
+        ],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "EventID": 20003104,
+      "PurposeType": "Normal",
+      "FarmElementID": 0,
+      "BoardShowList": [
+        2
+      ],
+      "IsNeedFade": false,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "NearestTeleportMappingInfoID": 0,
+      "IsClientOnly": false,
+      "TagList": null,
+      "Dialog": null,
+      "DialogueTriggerRadius": 0.0,
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "InteractIconType": "ChatIcon",
+      "SpawnConfig": null,
+      "TagOperation": "Override"
+    },
+    {
+      "ID": 200006,
+      "PosX": 127.69000244140625,
+      "PosY": 78.660003662109375,
+      "PosZ": 140.63600158691406,
+      "IsDelete": false,
+      "Name": "Monster6",
+      "RotY": 270.00009155273438,
+      "NPCMonsterID": 8012030,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": null,
+        "OverrideVariable": false,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "SpecialStandBy2",
+      "EventID": 20003106,
+      "PurposeType": "Normal",
+      "FarmElementID": 0,
+      "BoardShowList": [
+        2
+      ],
+      "IsNeedFade": false,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "NearestTeleportMappingInfoID": 0,
+      "IsClientOnly": false,
+      "TagList": null,
+      "Dialog": null,
+      "DialogueTriggerRadius": 0.0,
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "InteractIconType": "ChatIcon",
+      "SpawnConfig": null,
+      "TagOperation": "Override"
+    },
+    {
+      "ID": 200002,
+      "PosX": 77.2699966430664,
+      "PosY": 63.985691070556641,
+      "PosZ": 71.0199966430664,
+      "IsDelete": false,
+      "Name": "Monster2",
+      "RotY": 90.0,
+      "NPCMonsterID": 8012030,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": null,
+        "OverrideVariable": false,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "SpecialStandBy1",
+      "EventID": 20003112,
+      "PurposeType": "Normal",
+      "FarmElementID": 0,
+      "BoardShowList": [
+        2
+      ],
+      "IsNeedFade": false,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "NearestTeleportMappingInfoID": 0,
+      "IsClientOnly": false,
+      "TagList": null,
+      "Dialog": null,
+      "DialogueTriggerRadius": 0.0,
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "InteractIconType": "ChatIcon",
+      "SpawnConfig": null,
+      "TagOperation": "Override"
+    },
+    {
+      "ID": 200005,
+      "PosX": 100.04000091552734,
+      "PosY": 65.110687255859375,
+      "PosZ": 129.75999450683594,
+      "IsDelete": false,
+      "Name": "Monster5",
+      "RotY": 173.51229858398438,
+      "NPCMonsterID": 8012010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": null,
+        "OverrideVariable": false,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "SpecialStandBy1",
+      "EventID": 20003113,
+      "PurposeType": "Normal",
+      "FarmElementID": 0,
+      "BoardShowList": [
+        2
+      ],
+      "IsNeedFade": false,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "NearestTeleportMappingInfoID": 0,
+      "IsClientOnly": false,
+      "TagList": null,
+      "Dialog": null,
+      "DialogueTriggerRadius": 0.0,
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "InteractIconType": "ChatIcon",
+      "SpawnConfig": null,
+      "TagOperation": "Override"
+    }
+  ],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 35.5,
+      "PosY": 80.29,
+      "PosZ": 96.96,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": 35.5,
+      "PosY": 80.29,
+      "PosZ": 101.49,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": 28.5,
+      "PosY": 80.29,
+      "PosZ": 101.49,
+      "IsDelete": false
+    },
+    {
+      "ID": 4,
+      "PosX": 28.5,
+      "PosY": 80.29,
+      "PosZ": 96.96,
+      "IsDelete": false
+    },
+    {
+      "ID": 5,
+      "PosX": 46.527,
+      "PosY": 80.26,
+      "PosZ": 78.59,
+      "IsDelete": false
+    },
+    {
+      "ID": 6,
+      "PosX": 46.527,
+      "PosY": 80.26,
+      "PosZ": 85.2,
+      "IsDelete": false
+    },
+    {
+      "ID": 7,
+      "PosX": 53.0,
+      "PosY": 80.26,
+      "PosZ": 78.98,
+      "IsDelete": false
+    },
+    {
+      "ID": 8,
+      "PosX": 95.935,
+      "PosY": 74.072,
+      "PosZ": 100.204,
+      "IsDelete": false
+    },
+    {
+      "ID": 9,
+      "PosX": 100.025,
+      "PosY": 74.072,
+      "PosZ": 100.204,
+      "IsDelete": false
+    },
+    {
+      "ID": 10,
+      "PosX": 100.025,
+      "PosY": 74.072,
+      "PosZ": 93.894,
+      "IsDelete": false
+    },
+    {
+      "ID": 11,
+      "PosX": 95.935,
+      "PosY": 74.072,
+      "PosZ": 93.894,
+      "IsDelete": false
+    },
+    {
+      "ID": 12,
+      "PosX": 64.0,
+      "PosY": 80.26,
+      "PosZ": 118.22,
+      "IsDelete": false
+    },
+    {
+      "ID": 13,
+      "PosX": 55.0,
+      "PosY": 80.26,
+      "PosZ": 118.22,
+      "IsDelete": false
+    },
+    {
+      "ID": 14,
+      "PosX": 73.72,
+      "PosY": 77.88944,
+      "PosZ": 135.703,
+      "IsDelete": false
+    },
+    {
+      "ID": 15,
+      "PosX": 90.1,
+      "PosY": 77.88944,
+      "PosZ": 135.703,
+      "IsDelete": false
+    },
+    {
+      "ID": 16,
+      "PosX": 146.265,
+      "PosY": 79.917,
+      "PosZ": 140.083,
+      "IsDelete": false
+    },
+    {
+      "ID": 17,
+      "PosX": 146.49,
+      "PosY": 79.92,
+      "PosZ": 150.96,
+      "IsDelete": false
+    },
+    {
+      "ID": 26,
+      "PosX": 142.188,
+      "PosY": 79.917,
+      "PosZ": 139.955,
+      "IsDelete": false
+    },
+    {
+      "ID": 18,
+      "PosX": 185.11,
+      "PosY": 82.83,
+      "PosZ": 144.52,
+      "IsDelete": false
+    },
+    {
+      "ID": 19,
+      "PosX": 170.104,
+      "PosY": 82.83,
+      "PosZ": 144.359,
+      "IsDelete": false
+    },
+    {
+      "ID": 20,
+      "PosX": 169.638,
+      "PosY": 82.83,
+      "PosZ": 157.11,
+      "IsDelete": false
+    },
+    {
+      "ID": 21,
+      "PosX": 187.789,
+      "PosY": 82.83,
+      "PosZ": 156.35,
+      "IsDelete": false
+    },
+    {
+      "ID": 22,
+      "PosX": 196.301,
+      "PosY": 77.02,
+      "PosZ": 95.956,
+      "IsDelete": false
+    },
+    {
+      "ID": 23,
+      "PosX": 182.731,
+      "PosY": 77.02,
+      "PosZ": 95.956,
+      "IsDelete": false
+    },
+    {
+      "ID": 24,
+      "PosX": 206.282,
+      "PosY": 77.02,
+      "PosZ": 96.049,
+      "IsDelete": false
+    },
+    {
+      "ID": 25,
+      "PosX": 226.862,
+      "PosY": 77.02,
+      "PosZ": 96.049,
+      "IsDelete": false
+    },
+    {
+      "ID": 27,
+      "PosX": 95.53,
+      "PosY": 65.39,
+      "PosZ": 128.6,
+      "IsDelete": false
+    },
+    {
+      "ID": 28,
+      "PosX": 103.7,
+      "PosY": 65.11,
+      "PosZ": 128.97,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        7,
+        5,
+        6
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway3",
+      "RotY": 0.0,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        12,
+        13
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway4",
+      "RotY": 0.0,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        16,
+        17,
+        16,
+        26
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway6",
+      "RotY": 0.0,
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        19,
+        20,
+        21,
+        18
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway7",
+      "RotY": 0.0,
+      "ID": 7,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        21,
+        18,
+        19,
+        20
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway8",
+      "RotY": 0.0,
+      "ID": 8,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        22,
+        23
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway9",
+      "RotY": 0.0,
+      "ID": 9,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        24,
+        25
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway10",
+      "RotY": 0.0,
+      "ID": 10,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [],
+      "WaypointGraph": null,
+      "Name": "Pathway5",
+      "RotY": 0.0,
+      "ID": 5,
+      "PosX": 100.9064,
+      "PosY": 65.24029,
+      "PosZ": 69.79,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        27,
+        28
+      ],
+      "WaypointGraph": null,
+      "Name": "Pathway11",
+      "RotY": 0.0,
+      "ID": 11,
+      "PosX": 101.1554,
+      "PosY": 59.9728,
+      "PosZ": 136.7247,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": null
+}

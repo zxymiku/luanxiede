@@ -1,0 +1,242 @@
+{
+  "GroupGUID": null,
+  "GroupName": "NPCs",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P10101_F10101007_G5",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": null,
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 101020108
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 101020109
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 101020110
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 101100205
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 101100206
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 101100213
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 101100207
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Accept",
+        "ID": 201130103
+      }
+    ],
+    "Operation": "Or",
+    "DelayToLevelReload": false
+  },
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": true,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": null,
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "Usage": "Unspecified",
+      "LookAtCameraTemplate": null,
+      "CustomParameter": null,
+      "Name": "Anchor1",
+      "RotY": 168.75,
+      "ID": 1,
+      "PosX": -0.25,
+      "PosY": -1E-06,
+      "PosZ": 5.03,
+      "IsDelete": false
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400002,
+      "PosX": -0.029999999329447746,
+      "PosY": 0.055227000266313553,
+      "PosZ": 2.9000000953674316,
+      "IsDelete": false,
+      "Name": "NPC2",
+      "RotY": 17.932710647583008,
+      "NPCID": 1103,
+      "LevelGraph": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "UseDistrictTriggerType": false,
+      "Trigger": null,
+      "AIConfig": null,
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "StaticNPC": false,
+      "OverrideLodTemplate": "WithoutLod",
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        301140302,
+        201130201,
+        201140204,
+        201140210,
+        201140218,
+        201140220,
+        101150233,
+        501029402,
+        501029404
+      ],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideArtModelOffset": false,
+      "OverrideArtModelOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "DefaultIdleStateName": null,
+      "DefaultBlendShapeConfigName": null,
+      "BoneEmotionName": null,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "OverrideTriggerSound": false,
+      "SoundRange": 0.0,
+      "NPCLodType": "Normal",
+      "PossessionConfig": null,
+      "BoardShowList": [
+        8
+      ],
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "DefaultStory": null,
+      "FirstDialogueGroupID": 501029401,
+      "TalkChosenType": "undefined",
+      "TalkDialogGroupIDList": [
+        501029403
+      ],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 311030000,
+      "FreeStyleAnimGraphName": null,
+      "OverrideSeriesID": 0,
+      "IsMapContent": false,
+      "MiniMapIconType": 0,
+      "BornType": "Permanent",
+      "IsNeedFade": false,
+      "IsInitialHidden": false,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialogueMain_F10101007_G5_N400002.json",
+        "PackList": [
+          {
+            "Name": "Mission",
+            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialoguePack_Mission_F10101007_G5_N400002.json"
+          },
+          {
+            "Name": "caidan",
+            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialoguePack_caidan_F10101007_G5_N400002.json"
+          },
+          {
+            "Name": "Common",
+            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialoguePack_Common_F10101007_G5_N400002.json"
+          }
+        ],
+        "EnableCondition": null,
+        "EnableDialogCamera": true
+      },
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "OverrideBehaviorType": "None",
+      "OverrideBehaviorParameter": null,
+      "OverrideReplaceMaterialKey": null,
+      "ConnectWithSubMissionIDList": [
+        405003602,
+        201140204,
+        201140210,
+        201140218,
+        301140302,
+        201130201
+      ],
+      "NearestTeleportMappingInfoID": 0,
+      "RaidID": 0,
+      "ActivityMapConditionIDList": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "SpawnConfig": {
+        "TryCapture": true,
+        "CaptureDistanceTolerance": 10.0,
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": true,
+          "BlackInDistance": 25.0,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "SmartObjectList": []
+}

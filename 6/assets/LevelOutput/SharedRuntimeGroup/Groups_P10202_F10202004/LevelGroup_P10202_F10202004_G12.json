@@ -1,0 +1,605 @@
+{
+  "GroupGUID": null,
+  "GroupName": "CrowdPhone_After",
+  "Category": "Normal",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "AreaAnchorName": "LevelArea_P10202_F10202004_G12",
+  "SaveType": "Reset",
+  "SaveDimensionFilter": null,
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Finish",
+        "ID": 800320609
+      }
+    ],
+    "Operation": "And",
+    "DelayToLevelReload": false
+  },
+  "UnloadCondition": null,
+  "ForceUnloadCondition": null,
+  "SavedValueCondition": null,
+  "SystemUnlockCondition": null,
+  "AtmosphereCondition": null,
+  "UseCustomSaveData": false,
+  "IsPendedLoad": false,
+  "IsPendedUnload": false,
+  "LoadSide": "Client",
+  "LoadOnInitial": false,
+  "OwnerMainMissionID": 0,
+  "AirlineInitPrefabPaths": null,
+  "RandomInit": null,
+  "GroupStateList": null,
+  "GroupRefreshID": 0,
+  "ValueSource": null,
+  "ConflictIDList": [],
+  "IsHoyoGroup": false,
+  "HoYoGroupType": "Standard",
+  "StreamingTemplateType": "Standard",
+  "ConflictWhiteList": null,
+  "EnableGroupAI": false,
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 35.58,
+      "PosY": 5.26,
+      "PosZ": -7.58,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": 38.59,
+      "PosY": 5.300261,
+      "PosZ": -5.105877,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": 32.64,
+      "PosY": 5.040388,
+      "PosZ": -17.1,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2,
+        3
+      ],
+      "WaypointGraph": [
+        {
+          "To": [
+            1,
+            2
+          ]
+        },
+        {
+          "To": [
+            0
+          ]
+        },
+        {
+          "To": [
+            0
+          ]
+        }
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 36.85861,
+      "PosY": 5.040387,
+      "PosZ": -10.93164,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 35.647998809814453,
+      "PosY": 5.0403871536254883,
+      "PosZ": -7.8790087699890137,
+      "IsDelete": false,
+      "Name": "NPC1",
+      "RotY": 70.674819946289063,
+      "NPCID": 12134,
+      "LevelGraph": null,
+      "LoadOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "UseDistrictTriggerType": false,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/NPC_Patrol/Npc_Patrol_10202004_03.json",
+        "OverrideVariable": false,
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 12,
+            "UseID": 1,
+            "Type": "RandomGraph",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0,
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": null,
+      "SOConfig": null,
+      "StaticNPC": false,
+      "OverrideLodTemplate": "WithoutLod",
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideArtModelOffset": false,
+      "OverrideArtModelOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "DefaultIdleStateName": null,
+      "DefaultBlendShapeConfigName": null,
+      "BoneEmotionName": null,
+      "DefaultLookAtMode": "LookPlayer",
+      "DefaultLookAtTargetInfo": null,
+      "DefaultLookAtPositionInfo": null,
+      "MappingInfoID": 0,
+      "SubMapID": 0,
+      "OverrideTriggerSound": false,
+      "SoundRange": 0.0,
+      "NPCLodType": "Normal",
+      "PossessionConfig": null,
+      "BoardShowList": [],
+      "OverrideNPCName": {
+        "hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "hash": 371857150
+      },
+      "DefaultStory": null,
+      "FirstDialogueGroupID": 0,
+      "TalkChosenType": "undefined",
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010000,
+      "FreeStyleAnimGraphName": null,
+      "OverrideSeriesID": 0,
+      "IsMapContent": false,
+      "MiniMapIconType": 0,
+      "BornType": "Mission",
+      "IsNeedFade": false,
+      "IsInitialHidden": false,
+      "InitialHiddenNodeList": [],
+      "Dialog": null,
+      "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipFakeAvatar": true,
+      "OverrideBehaviorType": "None",
+      "OverrideBehaviorParameter": null,
+      "OverrideReplaceMaterialKey": null,
+      "ConnectWithSubMissionIDList": null,
+      "NearestTeleportMappingInfoID": 0,
+      "RaidID": 0,
+      "ActivityMapConditionIDList": null,
+      "TagOperation": "Override",
+      "CameraCollisionPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "CameraCenterEntityList": null,
+      "SpawnConfig": {
+        "TryCapture": true,
+        "CaptureDistanceTolerance": 10.0,
+        "OverrideSpawn": false,
+        "EntitySpawnConfig": null
+      },
+      "IsClientOnly": false,
+      "OverrideTriggerValidGuestConfig": false,
+      "TriggerValidGuest": null
+    }
+  ],
+  "CrowdList": [
+    {
+      "MemberList": [
+        {
+          "Identity": "XianZhou_Realm-Keeping",
+          "FeatureID": "XianZhou_Realm-Keeping_XianZhouLady",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "12_1_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.730999,
+            "y": -0.051,
+            "z": -0.843,
+            "normalized": {
+              "x": -0.65445143,
+              "y": -0.0456594639,
+              "z": -0.7547241,
+              "normalized": {
+                "x": -0.6544515,
+                "y": -0.0456594676,
+                "z": -0.754724145,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.9999999
+            },
+            "magnitude": 1.11696446,
+            "sqrMagnitude": 1.24760962
+          },
+          "LocalRotationY": 49.79656,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020298,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "XianZhou_Realm-Keeping",
+          "FeatureID": "XianZhou_Realm-Keeping_XianZhouMale",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "12_1_02",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "12_1_01",
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.223,
+            "y": -0.08,
+            "z": -0.705,
+            "normalized": {
+              "x": 0.299834669,
+              "y": -0.107564,
+              "z": -0.947907746,
+              "normalized": {
+                "x": 0.2998347,
+                "y": -0.10756401,
+                "z": -0.9479078,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 0.743743241,
+            "sqrMagnitude": 0.553154
+          },
+          "LocalRotationY": 307.1537,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010301,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "XianZhou_Realm-Keeping",
+          "FeatureID": "XianZhou_Realm-Keeping_XianZhouMale",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "12_1_03",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": 0.236,
+            "y": -0.08,
+            "z": 0.112,
+            "normalized": {
+              "x": 0.863825858,
+              "y": -0.2928223,
+              "z": 0.40995124,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.273203224,
+            "sqrMagnitude": 0.07464
+          },
+          "LocalRotationY": 229.4352,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010298,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "XianZhou_Realm-Keeping",
+          "FeatureID": "XianZhou_Realm-Keeping_VidyadharaMale",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "12_1_04",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.625,
+            "y": -0.08,
+            "z": -0.007,
+            "normalized": {
+              "x": -0.991846144,
+              "y": -0.126956314,
+              "z": -0.0111086778,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.63013804,
+            "sqrMagnitude": 0.397073984
+          },
+          "LocalRotationY": 147.5327,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010298,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": null,
+      "NewMunicipalChatCrowdInfos": null,
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 0.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -0.22425,
+        "y": -0.07275,
+        "z": -0.36075,
+        "normalized": {
+          "x": -0.52035743,
+          "y": -0.1688116,
+          "z": -0.8370967,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.4309538,
+        "sqrMagnitude": 0.185721189
+      },
+      "Name": "Crowd1",
+      "RotY": 0.0,
+      "ID": 1,
+      "PosX": 38.43,
+      "PosY": 5.101,
+      "PosZ": -7.34,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "XianZhou_Folk",
+          "FeatureID": "XianZhou_Folk_XianZhouMale",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "12_2_01",
+          "LookAtMode": "Closed",
+          "LookAtTarget": null,
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.560001,
+            "y": 0.0,
+            "z": 0.48,
+            "normalized": {
+              "x": -0.7592572,
+              "y": 0.0,
+              "z": 0.6507907,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.7375643,
+            "sqrMagnitude": 0.5440011
+          },
+          "LocalRotationY": 190.4104,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010292,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": null,
+      "NewMunicipalChatCrowdInfos": null,
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 0.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -0.560001,
+        "y": 0.0,
+        "z": 0.48,
+        "normalized": {
+          "x": -0.7592572,
+          "y": 0.0,
+          "z": 0.6507907,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.7375643,
+        "sqrMagnitude": 0.5440011
+      },
+      "Name": "Crowd2",
+      "RotY": 0.0,
+      "ID": 2,
+      "PosX": 33.49,
+      "PosY": 5.040392,
+      "PosZ": 1.99,
+      "IsDelete": false
+    },
+    {
+      "MemberList": [
+        {
+          "Identity": "XianZhou_Folk",
+          "FeatureID": "XianZhou_Folk_VidyadharaMale",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "12_3_01",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "12_3_02",
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -0.82,
+            "y": 0.0,
+            "z": 1.35,
+            "normalized": {
+              "x": -0.5191433,
+              "y": 0.0,
+              "z": 0.854687154,
+              "normalized": {
+                "x": -0.519143343,
+                "y": 0.0,
+                "z": 0.8546872,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.9999999
+            },
+            "magnitude": 1.57952535,
+            "sqrMagnitude": 2.49490023
+          },
+          "LocalRotationY": 193.8187,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010209,
+          "DefaultFreeStyleGraph": null
+        },
+        {
+          "Identity": "XianZhou_Folk",
+          "FeatureID": "XianZhou_Folk_XianZhouChildBoy",
+          "AssemNPCID": null,
+          "DefaultState": null,
+          "UniqueName": "12_3_02",
+          "LookAtMode": "LookCrowd",
+          "LookAtTarget": "12_3_01",
+          "LookAtAnchor": null,
+          "LookAtPosition": {
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          },
+          "LocalPosition": {
+            "x": -1.200001,
+            "y": 0.0,
+            "z": -0.387,
+            "normalized": {
+              "x": -0.9517311,
+              "y": 0.0,
+              "z": -0.306933016,
+              "normalized": {
+                "x": -0.951731145,
+                "y": 0.0,
+                "z": -0.306933045,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.00000012
+              },
+              "magnitude": 0.99999994,
+              "sqrMagnitude": 0.99999994
+            },
+            "magnitude": 1.2608614,
+            "sqrMagnitude": 1.58977139
+          },
+          "LocalRotationY": 19.46552,
+          "PossessionConfig": null,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040329,
+          "DefaultFreeStyleGraph": null
+        }
+      ],
+      "CrowdLevelGraph": null,
+      "NewMunicipalChatConfigPath": null,
+      "NewMunicipalChatCrowdInfos": null,
+      "InteractPerformanceID": 0,
+      "TriggerRudius": 0.0,
+      "InteractPerformanceTriggerRadius": 0.0,
+      "CenterPos": {
+        "x": -1.01,
+        "y": 0.0,
+        "z": 0.4815,
+        "normalized": {
+          "x": -0.9026705,
+          "y": 0.0,
+          "z": 0.4303325,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 1.11890221,
+        "sqrMagnitude": 1.25194228
+      },
+      "Name": "Crowd3",
+      "RotY": 0.0,
+      "ID": 3,
+      "PosX": 33.59,
+      "PosY": 5.06,
+      "PosZ": -13.19,
+      "IsDelete": false
+    }
+  ],
+  "PedestrianList": [],
+  "SmartObjectList": []
+}
